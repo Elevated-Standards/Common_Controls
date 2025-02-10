@@ -1,0 +1,87 @@
+[
+    {
+        "CC ID": "BM-01",
+        "Control Domain": "Backup Management",
+        "Control Name": "Backup Configuration",
+        "Control Description": "Organization configures redundant systems or performs periodic backups of data to resume system operations in the event of a system failure.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Backup and Restoration process is established, documented and communicated to all the relevant stakeholders.\n\n2. Ensure that all the information systems have redundancy or should be backed up periodically. Periodicity of the backup should be defined basis the criticality of the information system and data.\n\n3. Check the backup configuration for all the storage/database resources whether on-prem or on cloud.\n\n4. Ensure that alert are in place for backup failures and all backup failures are handled appropriately.",
+        "Test of Operating Effectiveness": "1. Inspect documentation to determine whether requirements for the configuration of redundant systems or performance of periodic backups of data to resume system operations are defined.\n\n2.Inspect redundancy or system backup configurations for production systems to determine type, frequency, and storage of backups.\n\n3. Inspect sample alerts for failed backups and validate the remediation steps.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Backup Management Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-BM-01\nE-BM-07",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "BM-02",
+        "Control Domain": "Backup Management",
+        "Control Name": "Resilience Testing",
+        "Control Description": "Organization performs annual backup restoration or data replication tests to confirm the reliability and integrity of system backups or recovery operations.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the requirement for backup restoration testing is defined and documented appropriately. \n\n2. Ensure that backup restoration testing is performed on an annual basis and ensure that the integrity of backup restores are maintained. ",
+        "Test of Operating Effectiveness": "1. Inspect relevant documentation to determine whether requirements for annual backup restoration or failover and failback tests have been defined.\n\n2. Inspect annual backup restoration, or failover and failback tests to determine whether Organization has tested the reliability and integrity of system backups.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Backup Management Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-BM-01\nE-BM-02",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "BM-03",
+        "Control Domain": "Backup Management",
+        "Control Name": "Backup Failure Review",
+        "Control Description": "Failed backup jobs are periodically reviewed and resolved in a timely manner.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that alert are sent to the system administrators in case of backup failures.\n\n 2. All backup failures should be handled appropriately and resolved in a timely manner.",
+        "Test of Operating Effectiveness": "1. Inspect whether failed backup jobs are being reviewed periodically.\n\n2. Inspect alerts are configured to notify administrators if backup fails.\n\n3. Inspect and validate the remediation process for failed backups.\n",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Backup Management Policy"
+        },
+        "Frequency": "Semi-Annual",
+        "Evidence Artifacts": "E-BM-03\nE-BM-06",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "BM-04",
+        "Control Domain": "Backup Management",
+        "Control Name": "Alternate Storage",
+        "Control Description": "Organization backups are securely stored in an alternate location from source data.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the backups are stored in an alternate location than the source data.\n\n2. Ensure that access to the backups is restricted and backups are stored securely.",
+        "Test of Operating Effectiveness": "1. Inspect whether backups are stored in a different location than the source data.\n\n2. Inspect evidence showing that backups are secured and access in restricted.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Backup Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-BM-04",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "BM-05",
+        "Control Domain": "Backup Management",
+        "Control Name": "Alternate Telecommunication",
+        "Control Description": "Alternate telecommunication service agreements have been established to resume business when the primary service gets disrupted. Service agreements contain priority of service provisions.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that alternate telecommunication service agreements are defined to resume business when the primary service gets disrupted.\n\n2. The priority of the service provisions should be defined in the service agreements.",
+        "Test of Operating Effectiveness": "1. Inspect whether alternate telecommunication service agreements are defined to resume business when the primary service gets disrupted.\n\n2. Inspect documentation to determine that the Service agreements contain priority of service provisions.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Backup Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-BM-05",
+        "Mapping": ""
+    }
+]

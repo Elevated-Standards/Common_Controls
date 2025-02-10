@@ -1,0 +1,189 @@
+[
+    {
+        "CC ID": "EM-01",
+        "Control Domain": "Entity Management",
+        "Control Name": "Board of Directors Structure and Purpose",
+        "Control Description": "The Board of Directors provides corporate oversight, strategic direction, and review of management for Organization. The Board of Directors meets at least quarterly and has 3 sub-committees: \n\u2022 Audit Committee\n\u2022 Executive Compensation and Nominating Committee\n\u2022 Governance Committee",
+        "Goal": "",
+        "Test of Design": "1. Document the Board of Directors responsibilities and members within a charter.\n\n2. Ensure Board of Directors meet at least quarterly, and document meeting minutes of each meeting.\n\n3. Ensure Board of directors have at least 3 sub-committees defined and formed, audit committee, executive compensation and nominating committee, and governance committee.",
+        "Test of Operating Effectiveness": "1. Inspect that the board of directors information in the form of Charter is available on the Organization governance website.\n\n2. Validate that board of directors meet at least quarterly to provide corporate oversight and have at least 3 sub-committees defined: audit committee, executive compensation and nominating committee, and governance committee.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Information Systems Operations Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-EM-01\nE-EM-02",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "EM-02",
+        "Control Domain": "Entity Management",
+        "Control Name": "Audit Committee",
+        "Control Description": "The Audit Committee is governed by a Charter, is independent from Organization Management, composed of outside directors (Industry Experts), and meets quarterly. The Audit Committee oversees: \n\u2022Financial Statement Quality \n\u2022Enterprise Risk Management\n\u2022Regulatory & Legal Compliance\n\u2022Internal Audit Functions\n\u2022Information Security Functions\n\u2022External Audit Functions",
+        "Goal": "",
+        "Test of Design": "1. Ensure documented information on the Audit Committee and Audit Committee Charter is created.\n\n2. Ensure that the audit committee is independent and meets quarterly as defined within the charter. Document the most recent meeting in the form of an audit committee minutes.\n\n3. Ensure that the audit committee includes outside directors (industry experts).\n\n4. Ensure audit committee reviews financial statement quality, enterprise risk management, regulatory & legal compliance, internal and external audit function, and information security functions.\n\n5. Follow up on any open items from previous audit committee meetings to ensure they are being worked on and closed out.",
+        "Test of Operating Effectiveness": "1. Inspect the Charter of the Audit Committee of the Board of Directors and meeting minutes to determine whether the Audit Committee is independent from management, and is composed of outside directors.\n\n2. Validate that the audit committee is independent and meets quarterly as defined within the charter. \n\n3. Inspect the minutes of meeting audit committee.\n\n4. Validate meeting minutes to ensure that financial statement quality, enterprise risk management, regulatory & legal compliance, internal and external audit function, and information security functions were reviewed.",
+        "Theme": "People",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Information Systems Operations Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-EM-03\nE-EM-04\nE-EM-05\nE-EM-06",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "EM-03",
+        "Control Domain": "Entity Management",
+        "Control Name": "Organizational Structure",
+        "Control Description": "Organization Management ensures that its organization is aligned with the corporate strategy by assigning key managers with responsibilities to execute the corporate strategy.",
+        "Goal": "",
+        "Test of Design": "1. Ensure the organization has defined and documented a corporate strategy including the responsibilities for key managers.\n\n2. Ensure the strategy is available to the respective stakeholder and is communicated effectively.",
+        "Test of Operating Effectiveness": "1. Validate and ensure that the organization has established and documented the strategy with the responsibilities for key managers.\n\n2. Inspect whether the strategy is available to the respective stakeholder and is communicated effectively.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Information Systems Operations Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-EM-07",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "EM-04",
+        "Control Domain": "Entity Management",
+        "Control Name": "Operating Plans",
+        "Control Description": "Annual operating plans are aligned with Corporate Objectives, which are established on an annual basis during the Company's planning process. Priorities are set and plans are communicated appropriately.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that operating plans are established. \n\n2. Ensure that these plans are updated and approved on an annual basis.\n\n3. Ensure priorities are set and plans are communicated to the respective stakeholders.",
+        "Test of Operating Effectiveness": "1. Inspect the process of operating plans creation and update.\n\n2. Validate that the corporate strategy is an input to operating plans update process.\n\n3. Validate whether the plans are updated and approved at least annually and communicated to the stakeholders.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Information Systems Operations Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-EM-08\nE-EM-09",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "EM-05",
+        "Control Domain": "Entity Management",
+        "Control Name": "Cyber Security Insurance",
+        "Control Description": "Organization purchases cyber security insurance to mitigate risk of material financial impact that could result from a cyber security event.",
+        "Goal": "",
+        "Test of Design": "1. Ensure cyber security insurance is being purchased by the organization and is active for the audit period.\n\n2. Ensure that a process is created for renewal of Cyber Security Insurance.",
+        "Test of Operating Effectiveness": "1. Obtain and inspect the latest cyber security insurance to verify that the insurance policy is active for the audit period.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Information Systems Operations Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-EM-10",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "EM-06",
+        "Control Domain": "Entity Management",
+        "Control Name": "Internal Audit Function",
+        "Control Description": "Quarterly, the Chief Audit Executive meets with the Audit Committee to review key risk issues. The Audit Committee approves the annual Internal Audit Plan. Results of quarterly audits and subsequent issue tracking summaries are presented to the Audit Committee.",
+        "Goal": "",
+        "Test of Design": "1. Ensure key risk issues shall be reviewed at least quarterly by the audit committee and document the issues identified along with the plan of action for risk remediation.\n\n2. Ensure the Internal audit plan is annually approved by the audit committee.\n\n3. Ensure results of quarterly audits and issues identified as a part of audit are presented to the Audit Committee.",
+        "Test of Operating Effectiveness": "1. Inspect Minutes of audit committee meeting and validate that it highlights the key risks identified, plan of action along with the timeline.\n \n2. Check internal audit plan to ensure it was approved by the audit committee.\n\n3. Inspect and validate whether results of quarterly audits are presented to the audit committee.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Information Systems Operations Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-EM-11\nE-EM-12\nE-EM-13",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "EM-07",
+        "Control Domain": "Entity Management",
+        "Control Name": "Financial Control Review",
+        "Control Description": "Internal financial control assessment results are reported to the Audit Committee by the Chief Audit Executive on a quarterly basis and support the CEO/CFO 302/404 certifications.",
+        "Goal": "",
+        "Test of Design": "1. Ensure Chief Audit committee shall report the internal financial control assessment results to the Audit Committee on a quarterly basis.",
+        "Test of Operating Effectiveness": "1. Inspect Minutes of the audit committee meeting to ensure internal financial control assessment results are discussed and reported on a quarterly basis.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Information Systems Operations Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-EM-14",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "EM-08",
+        "Control Domain": "Entity Management",
+        "Control Name": "Information Security Function",
+        "Control Description": "Quarterly, the Chief Security Officer meets with the Audit Committee to review key Information Security issues. Results of continuous monitoring activities and current security compliance status are presented to the Audit Committee and the Board of Directors.",
+        "Goal": "",
+        "Test of Design": "1. Ensure audit committee reviews the Information security issues at least quarterly and document the issues identified along with the plan of action for risk remediation.\n\n2. Ensure Minutes of Meetings to be documented stating the compliance status.\n\n3. Ensure results of continuous compliance activities and current compliance status are reported to the Audit Committee and the Board of Directors in the form of PowerPoints, documents, etc.",
+        "Test of Operating Effectiveness": "1. Validate whether information security issues are reviewed at least quarterly by the audit committee along with remediation plans.\n\n2. Inspect minutes of audit committee meeting with chief security officer to ensure security compliance status along with the continuous monitoring of action plan is discussed.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Information Systems Operations Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-EM-15",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "EM-09",
+        "Control Domain": "Entity Management",
+        "Control Name": "Information Security Compliance Review",
+        "Control Description": "Information Security compliance results are reported to the Audit Committee by the Chief Security Officer on a quarterly basis and support information security compliance certifications",
+        "Goal": "",
+        "Test of Design": "1. Ensure Minutes of Meetings to be documented stating the compliance results on a quarterly basis.\n\n2. Ensure results of current security compliance status and issues identified as a part of audit are reported to the Audit Committee in the form of PowerPoints, documents, etc.",
+        "Test of Operating Effectiveness": "1. Obtain and inspect evidence that quarterly Information Security compliance results were reported to the Audit Committee.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Information Systems Operations Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-EM-16",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "EM-10",
+        "Control Domain": "Entity Management",
+        "Control Name": "Common Controls Framework",
+        "Control Description": "Organization maintains a Common Control Framework (CR) that is used in the implementation of control measures as a risk mitigation strategy to support organization operations, technology infrastructure, and security management activities.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a control set is created to govern the organization's information security program.\n\n2. Document the control set and ensure it is communicated with relevant stakeholders.",
+        "Test of Operating Effectiveness": "1. Validate whether a control framework exists for managing the organization's information security program.\n\n2. Ensure that this control set is documented and available to relevant stakeholders.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Information Security Management Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-EM-17",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "EM-11",
+        "Control Domain": "Entity Management",
+        "Control Name": "Service Agreement",
+        "Control Description": "When customers sign-up for Organization\u2019s product and services, the customer is required to acknowledge a service agreement which includes considerations for protecting security, availability, confidentiality and indicates the responsibilities of the users and organization\u2019s responsibilities and commitments.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the customers acknowledge a service agreement including considerations for protecting security, availability, confidentiality.\n\n2. Ensure that the service agreement contains responsibilities of users and the organization.",
+        "Test of Operating Effectiveness": "1. Validate whether customers acknowledge a service agreement.\n\n2. Validate whether the agreement contains considerations for protecting security, availability, confidentiality.\n\n3. Validate whether the agreement contains users and organizations responsibilities.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Third-Party Service Agreement"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-EM-18",
+        "Mapping": ""
+    }
+]

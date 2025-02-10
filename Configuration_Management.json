@@ -1,0 +1,257 @@
+[
+    {
+        "CC ID": "CFM-01",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Baseline Configuration Standard",
+        "Control Description": "Organization ensures security hardening and baseline configuration standards have been established according to industry standards and are reviewed and updated periodically.",
+        "Goal": "",
+        "Test of Design": "1. Prepare and maintain Security hardening and Baseline configuration standards shall be established.\n\n2. Configuration of systems (systems can include AWS, Azure, GCP, and more) shall be configured with the baseline configuration.\n\n3. Configure required permissions for the configuration management server. \n\n4. Configuration of Security Groups, NACLs, and virtual firewall appliances shall be in place.\n\n5. Configuration of VPC Firewall Rules and virtual firewall appliances to allow traffic from the configuration management server to the other system servers.\n\n6. All production systems shall be able to demonstrate consistent system configurations via version control number, last update date, settings, or other.\n\n7. Process shall be established to ensure that latest version patch (hardened as per industry practices) is applied wherever possible.\n\n8. Ensure that security hardening and configuration baselines are monitored are flagged wherever deviation is observed.\n\n9. Establish a process ensuring regular rule set reviews are conducted by relevant teams for network devices.",
+        "Test of Operating Effectiveness": "1. Validate whether Security hardening and Baseline configuration standards are established.\n\n2. Inspect baseline configuration of systems (systems can include AWS, Azure, GCP, and more) shall be configured with the baseline configuration.\n\n3. Validate whether the required permissions are present for the configuration management server. \n\n4. Inspect Security Groups, NACLs, and virtual firewall appliances configurations.\n\n5. Validate whether VPC Firewall Rules and virtual firewall appliances are configured to allow traffic from the configuration management server to the other system servers.\n\n6. Inspect production systems to determine whether they demonstrate consistent system configurations via version control #, last update date, settings, or other.\n\n7. For a sample of in scope servers validate whether latest version patch (hardened as per industry practices) is applied wherever possible.\n\n8. Validate that security hardening and configuration baselines are monitored are flagged wherever deviation is observed.\n\n9. Validate that regular rule set reviews are conducted by relevant teams for network devices.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "Semi-annual",
+        "Evidence Artifacts": "Log Management\nE-CFM-01\nE-CFM-02\nE-CFM-03\nE-CFM-04\nE-CFM-05\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-02",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Default \"Deny-all\" Settings",
+        "Control Description": "Where applicable, the information system default access configurations are set to \"deny-all.\"",
+        "Goal": "",
+        "Test of Design": "1. Prepare a list of in-scope network devices and production accounts and ensure that default deny-all rules are configured\n\n2. Ensure that deny-all rule precedes all other applied rules in terms of priority.",
+        "Test of Operating Effectiveness": "1. For a list of in-scope network devices and production accounts, validate that default deny-all rules are configured\n\n2. Validate that deny-all rule precedes all other applied rules in terms of priority.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "Semi-annual",
+        "Evidence Artifacts": "E-AM-02 \nE-CFM-03\n\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-03",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Remote Access: Prohibited Protocols and Commands",
+        "Control Description": "Organization defines a listing of prohibited user commands and prohibited protocols that can be used in a remote session.",
+        "Goal": "",
+        "Test of Design": "1. Prepare and maintain the listing of prohibited user commands and prohibited protocols that can be used in a remote session.",
+        "Test of Operating Effectiveness": "1. Inspect security hardening standard to determine the listing of prohibited user commands and prohibited protocols that can be used in a remote session.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CFM-06",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-04",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Data Execution Prevention",
+        "Control Description": "Organization ensures data execution prevention (DEP) security features are enabled on production hosts to restrict code execution within memory.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that configuration setting includes data execution prevention (DEP) security features enabled on production hosts to restrict code execution within memory. ",
+        "Test of Operating Effectiveness": "1. Check configuration setting to ensure data execution prevention (DEP) security features are enabled on production hosts to restrict code execution within memory. ",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "Semi-annual",
+        "Evidence Artifacts": "E-CFM-02\nE-CFM-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-05",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Client Run Time Technologies",
+        "Control Description": "Organization disables prohibited client run time technologies on information systems.",
+        "Goal": "",
+        "Test of Design": "1. Establish a process to ensure no prohibited application/software is installed on the machine.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's software compliance dashboard, to ensure no prohibited application/software is installed on the machine.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "Semi-annual",
+        "Evidence Artifacts": "E-CFM-07",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-06",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Prohibited Activity Monitoring",
+        "Control Description": "Organization information systems are configured to explicitly deny a predefined list of activities.",
+        "Goal": "",
+        "Test of Design": "1. Prepare a list of activities that shall be denied on Information Systems, e.g., removable media restriction.\n2. Ensure that the denied activities are enforced on the Information systems.\n3. Ensure that the logs are being maintained for monitoring.\n4. The list shall be reviewed periodically.",
+        "Test of Operating Effectiveness": "1. Validate whether a list is being maintained that has the activities that shall be denied on Information Systems.\n2. Inspect the activity logs to validate whether the denied activities are enforced and monitored on the Information systems.\n3. Validate whether the periodic review history documentation is present.",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CFM-08\nE-CFM-09\nE-CFM-10",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-07",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Configuration Checks",
+        "Control Description": "Organization uses mechanisms to detect deviations from baseline configurations on production environments.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that security hardening and configuration baselines are being monitored for in-scope servers.\n2. Deviations shall be generated for in-scope servers for which remediations shall be tracked to closure.\n3. Design a process for security hardening and configuration baselines checks being accurate and updated at least annually.",
+        "Test of Operating Effectiveness": "1. Validate that security hardening and configuration baselines are being monitored for in-scope servers.\n2. Validate that deviations are being generated for in-scope servers and remediations are tracked to closure.\n3. Validate that the security hardening and configuration baselines checks are accurate and updated at least annually.",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CFM-11\nE-CFM-05",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-08",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Configuration Check Reconciliation: Logging",
+        "Control Description": "Organization reconciles the established device inventory against the enterprise log repository on a quarterly basis; devices which do not forward security configurations are remediated.",
+        "Goal": "",
+        "Test of Design": "1. Prepare an asset register to ensure asset life cycle is maintained as per the defined policy and/or standard of asset management.\n2. Establish a process through which the device configuration logs can be fetched and reconciled with asset register quarterly.\n3. Ensure that a process is established that tracks the deviations to remediation.",
+        "Test of Operating Effectiveness": "1. Inspects Organization asset register to ensure asset life cycle is maintained as per the defined policy and/or standard of asset management.\n2. Validate whether the device configuration logs are being reconciled with asset register quarterly.\n3. Validate for a sample of deviations whether the remediation is done in a timely manner.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-AM-02\n\nE-CFM-12 with E-AM-02\n\nE-CFM-05\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-09",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Time Clock Synchronization",
+        "Control Description": "Systems are configured to synchronize information system time clocks based on International Atomic Time or Coordinated Universal Time (UTC).",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the inventory includes all the ICT devices such as firewalls, routers and servers.\n2. Ensure that a process has been established to use only hardened images for the servers.\n3. Ensure that the NTP configuration (primary & secondary NTP servers) for these devices is configured.\n4. Ensure that the time sync is enabled and stratums are defined.",
+        "Test of Operating Effectiveness": "1. Obtain a list of  in-scope ICT devices such as firewalls, routers and servers.\n2. For servers, validate that security hardened images are used.\n3. Obtain the NTP configuration for a sample of devices and check whether primary and secondary NTP servers are configured.\n4. Validate whether time sync is enabled and stratums are defined and the time servers are working.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-CFM-02\n\nE-CFM-14\n\nE-CFM-13\n\nE-CFM-15",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-10",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Time Clock Configuration Access",
+        "Control Description": "Access to modify time data is restricted to authorized personnel.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the ability to modify time data is restricted to authorized personnel.\n2. Ensure that access reviews of authorized users and all remediations are appropriately tracked",
+        "Test of Operating Effectiveness": "1. Obtain a list of all users who have the ability to modify time data. \n2. Validate whether access reviews of these users were performed and all remediations are appropriately tracked",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CFM-16\n\nE-CFM-17\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-11",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Default Device Passwords",
+        "Control Description": "Vendor-supplied default passwords are changed according to Organization standards prior to device installation on the Organization network or immediately after software or operating system installation.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the security hardening and configuration baseline checks include enforcing disablement of default accounts.\n2. Ensure that the security hardening and configuration baseline deviations are being tracked to resolution",
+        "Test of Operating Effectiveness": "1. Inspect security hardening and configuration baseline checks to determine whether they are configured to enforce disabling of default accounts.\n2. Validate that the security hardening and configuration baseline deviations are being tracked to resolution.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CFM-02\n\nE-CFM-05",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-12",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Process Isolation",
+        "Control Description": "Organization implements only one primary function per server within the production environment; the information system maintains a separate execution domain for each executing process.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the security hardening and configuration baseline checks include installing one primary function per server within the production environment and the information system maintains a separate execution domain for each executing process.\n2. Ensure that the security hardening and configuration baseline deviations are being tracked to resolution.",
+        "Test of Operating Effectiveness": "1. Inspect security hardening and configuration baseline checks include installing one primary function per server within the production environment and the information system maintains a separate execution domain for each executing process.\n2. Validate that the security hardening and configuration baseline deviations are being tracked to resolution.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CFM-02\n\nE-CFM-18\n\nE-CFM-05",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-13",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Collaborative Devices",
+        "Control Description": "Where applicable, collaborative computing devices used at Organization are configured to restrict remote activation and provide an explicit indication that they are in use.",
+        "Goal": "",
+        "Test of Design": "1. In case of collaborative computing devices, ensure that an explicit indication is documented confirming its use and requirement.\n2. Ensure that the security hardening and configuration baseline checks are configured to restrict remote activation on collaborative computing devices.\n3. Ensure that the security hardening and configuration baseline deviations are being tracked to resolution",
+        "Test of Operating Effectiveness": "1. Validate whether the use of collaborative computing devices is being flagged and justification of its use is documented.\n2. Inspect security hardening and configuration baseline checks to determine whether collaborative computing devices are configured to restrict remote activation.\n3. Validate that the security hardening and configuration baseline deviations are being tracked to resolution",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-CFM-02\n\nE-CFM-19\n\nE-CFM-05",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-14",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Software Installation",
+        "Control Description": "Installation of software or programs in the production environment is approved by authorized personnel.",
+        "Goal": "",
+        "Test of Design": "1. Ensure Security hardening and Baseline configuration standards includes process established to determine whether the installation of software or programs in the production environment is approved by authorized personnel.\n2. Prepare an authorized approval matrix for installation of software or programs in the production environment.",
+        "Test of Operating Effectiveness": "1. Inspect Security hardening and Baseline configuration standards to ensure that the installation of software or programs in the production environment is approved by authorized personnel is defined.\n2. Inspect the authorized approval matrix for installation of software or programs in the production environment.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CFM-02        \n\nE-CFM-20",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CFM-15",
+        "Control Domain": "Configuration Management",
+        "Control Name": "Job Schedules",
+        "Control Description": "Schedule changes or the modifications of production jobs require:\n\u2022 documented approval from authorized personnel\n\u2022 documented monitoring details",
+        "Goal": "",
+        "Test of Design": "1. Prepare, document, and periodically review Organization's change management standard.\n\n2. Ensure that the change management process includes tracking to determine whether schedule changes or the modifications of production jobs require:\n\u2022 documented approval from authorized personnel\n\u2022 documented monitoring details",
+        "Test of Operating Effectiveness": "1. Obtain Organization's change management standard and validate whether it is periodically reviewed.\n\n2. For a sample of change tickets, inspect change management process flow documentation (e.g., ticketing/tracking tools) to determine whether schedule changes or the modifications of production jobs require:\n\u2022 documented approval from authorized personnel\n\u2022 documented monitoring details",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Change Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CFM-21\n\nE-CFM-22\n\nE-CFM-23\n\nE-CFM-24",
+        "Mapping": ""
+    }
+]

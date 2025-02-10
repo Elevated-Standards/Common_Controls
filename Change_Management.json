@@ -1,0 +1,70 @@
+[
+    {
+        "CC ID": "CHM-01",
+        "Control Domain": "Change Management",
+        "Control Name": "Change Management Workflow",
+        "Control Description": "Change scope, change type, and roles and responsibilities are pre-established and documented in a change control workflow; notification and approval requirements are also pre-established based on risk associated with change scope and type.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the change management process is established and well-documented, and should be approved by the management and communicated to all the relevant stakeholders.\n\n2. Ensure that roles and responsibilities are defined for each activity and  change scope, that change type is predefined. \n\n3. Ensure that the change workflow has a mandatory approval and notification requirements incorporated based on risk and change type.",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s policy to determine whether:\na. Change scope, change type, and roles and responsibilities are pre-established.\nb. Notification and approval requirements are pre-established based on the risk associated with change scope and type.\n\n2. Inspect change management ticketing and tracking tools to determine whether the change control workflow is defined in accordance with the defined requirements.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Change Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CHM-01\n\nE-CHM-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CHM-02",
+        "Control Domain": "Change Management",
+        "Control Name": "Change Approval",
+        "Control Description": "Prior to introducing changes into the production environment, approval from authorized personnel is required based on the following:\n\u2022 change description\n\u2022 impact of change\n\u2022 test results\n\u2022 back-out plan",
+        "Goal": "",
+        "Test of Design": "1. Ensure that all the changes to the production environment are tracked in a Change Management tracking tool. All the change details should be documented. Some of the mandatory details for each change are:\na. Change Description\nb. Change Impact\nc. Test Details\nd. Roll-out and Roll-back Plan\ne. Change Approval\nf. Change date and time\n\n2. All the changes in the production environment should be approved by the authorized personnel prior to implementation. Make sure that the approver is independent of the change requestor and change implementor. If not, check that there a secondary approver to ensure segregation of duty is maintained.\n3. Make sure that the deployment and change logs are retained as per organization's policy.",
+        "Test of Operating Effectiveness": "1. Inspect Change Management tracking tool to determine that requirements prior to introducing changes into the production environment, approval from appropriate personnel is documented including the following:\na. Change description\nb. Impact of change\nc. Test results\nd. Back-out procedures\n\n2. For a sample of changes, inspect corresponding change tickets, and verify if it includes the following information:\na. Change Description\nb. Impact of changes\nc. Roll back plan\nd. Evidence of successful testing documentation\ne. Approval of change prior to implementation\n\n3. For the sampled changes, validate that the change was approved by a person independent of the person who requested or made the change. Alternatively, ensure that there is a second level of approval to ensure that segregation of duties is being maintained.\n\n4. Inspect whether the change logs are retained as per the organization's policy.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Change Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CHM-02\n\nE-CHM-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CHM-03",
+        "Control Domain": "Change Management",
+        "Control Name": "Segregation of Duties",
+        "Control Description": "Changes to the production environment are implemented by authorized personnel. ",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the permission to implement changes to the production is limited to few authorized personnels. \n\n2. Ensure that the change implementor is not the change approver.\n",
+        "Test of Operating Effectiveness": "1. Inspect Change Management tracking tool and for a sample of changes, inspect that change tickets were launched and appropriately approved.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Change Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CHM-02\n\nE-CHM-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CHM-04",
+        "Control Domain": "Change Management",
+        "Control Name": "Communication of Maintenance and Downtime",
+        "Control Description": "Customer-impacting product and system changes are publicly communicated on the company website.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that all the changes that impact the customers and customer product or services should be communicated to the customers on the company website.\n\n2. In cases of any planned downtime due to a change, it should be communicated to the customers in advance on the website.",
+        "Test of Operating Effectiveness": "1. Inspect the company website to determine whether customer-impacting product and system changes are publicly communicated.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Change Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CHM-04",
+        "Mapping": ""
+    }
+]

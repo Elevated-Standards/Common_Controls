@@ -1,0 +1,665 @@
+[
+    {
+        "CC ID": "IAM-01",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Logical Access Provisioning",
+        "Control Description": "Logical access provisioning to information systems requires approval from appropriate personnel.",
+        "Goal": "",
+        "Test of Design": "1. Design and document a process for Logical Access and requirements for access provisioning.\n\n2. Ensure access approval logic is mandated in the access management portal accordingly.\n\n3. Ensure that the access management portal is updated with the relevant approvers.",
+        "Test of Operating Effectiveness": "1. Inspect Organization Logical Access Policy and/or Standard to determine that the requirements for access provisioning were defined.\n\n2. Inspect evidence of the workflow from access management portal showing access requires approval and is provisioned upon approval.\n\n3. Inspect the system generated list of identity and access groups which are in-scope and associated workgroups with approvers from access management portal.\n\n4. Inspect access provisioning system logs for a selection of users who were granted access to production systems.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-01\nE-IAM-02\nE-IAM-03\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-02",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Change of Access Notification",
+        "Control Description": "Changes made to system access trigger a notification that is sent to designated personnel.",
+        "Goal": "",
+        "Test of Design": "1. Design and document a process for Logical Access and requirements for access modification.\n\n2. Ensure that any change made to access triggers a notification in the access management portal accordingly.\n",
+        "Test of Operating Effectiveness": "1. Inspect Organization Logical Access Policy and/or Standard to determine the requirements for access provisioning were defined.\n\n2. Validate for a sample access change, that a notification in the access management portal was triggered to the management.\n",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-01\nE-IAM-04\nE-IAM-05\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-03",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Logical Access De-provisioning",
+        "Control Description": "Logical access that is no longer required in the event of a termination is documented, communicated to management, and revoked.",
+        "Goal": "",
+        "Test of Design": "1. Design and document a process for Logical Access and requirements for access de-provisioning.\n\n2. Ensure access termination logic is mandated in the access management portal accordingly.\n",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Logical Access Account Standard to determine whether the requirements for access de-provisioning or terminations were defined.\n\n2. Inspect the list of system generated population of terminated full-time and temporary employees and contractors from the HR system.\n\n3. Inspect configurations to determine that user accounts are disabled after they are no longer required..\n\n4. Inspect removals from the access management tool for a selection of terminations.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-IAM-01\nE-IAM-02\nE-IAM-07\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-04",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Logical Access De-provisioning: Notification",
+        "Control Description": "The People Resources system sends a notification to relevant personnel in the event of a termination of an information system user.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that on access termination, the access management portal triggers a notification to the relevant personnel.\n",
+        "Test of Operating Effectiveness": "1. Inspect resource management portal to check if the relevant stakeholders are informed upon an employee's termination of an information system user.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "\nE-IAM-02\nE-IAM-06\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-05",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Logical Access Review",
+        "Control Description": "Organization performs account and access reviews on a quarterly basis; corrective action is taken where applicable.",
+        "Goal": "",
+        "Test of Design": "1. Design and document a process for Logical Access and requirements for access reviews.\n\n2. Ensure access reviews are performed as per defined frequency.\n\n3. Ensure that the necessary corrective action has been taken, if required.",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Logical Access Account Standard to determine whether the requirements for access reviews were defined.\n\n2. Inspect the access reviews reconciliation report on a quarterly basis.\n\n3. For a sample of services, inspect the access review for the selected quarters. \n\n4. In case of any discrepancy, ensure that corrective action has been taken and appropriate approval is obtained from the authorized personnel.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-01\nE-IAM-08\nE-IAM-09\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-06",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Role Change: Access De-provisioning",
+        "Control Description": "Upon notification of an employee reassignment or transfer, management reviews the employee's access for appropriateness. Access that is no longer required is revoked and documented.",
+        "Goal": "",
+        "Test of Design": "1. Design and document a process for Logical Access and requirements for access modification in case of transfer or reassignment.\n\n2. Ensure access reviews are performed appropriately.\n\n3. Ensure that the necessary corrective action has been taken, if required.",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Logical Access Account Standard to determine whether the requirements for access modifications were defined and includes the case of employee reassignment or transfer.\n\n2. Inspect the user access reconciliation report to ensure that the user access reviews are completed appropriately.\n\n3. In case of any discrepancy, ensure that corrective action has been taken inspect the list of terminated users from the audit period.\n\n4. For a sample of terminated users, validate that access was terminated in a timely and appropriate manner.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-01\nE-IAM-08\nE-IAM-09\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-07",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Shared Logical Accounts",
+        "Control Description": "Organization restricts the use of shared and group authentication credentials. Authentication credentials for shared and group accounts are reset every 90 days.",
+        "Goal": "",
+        "Test of Design": "1. Design and document a process for Logical Access and requirements for rotation of shared credentials.\n\n2. Ensure that shared secrets were rotated as per the defined policy.",
+        "Test of Operating Effectiveness": "1. Inspect the Logical Access Account Standard to determine whether Organization requires the restriction of shared and group authentication credentials, and that authentication credentials are rotated\n\n2. For a sample of services validate that shared secrets were rotated as per the defined policy and appropriate evidences are available.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "Quarterly",
+        "Evidence Artifacts": "E-IAM-01\nE-IAM-10\n\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-08",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Shared Logical Accounts: Group Member ",
+        "Control Description": "Passwords for shared and group accounts are reset when a member of the shared group leaves.",
+        "Goal": "",
+        "Test of Design": "1. Design and document a process for Password Policy and requirements for changing password of shared and group accounts.\n\n2. Ensure that the password is changed if a member of the shared group leaves.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's password policy and check requirement for changing the password for shared and group accounts are clearly defined.\n\n2. Inspect shared credential storage tools to check the operational effectiveness and ensure passwords are changed when a member of the shared group leaves.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-IAM-16\nE-IAM-11\n\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-09",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Shared Account Restrictions",
+        "Control Description": "Where applicable, the use of generic and shared accounts to administer systems or perform critical functions is prohibited; generic user IDs are disabled or removed.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that there are no generic or shared accounts used.\n\n2. Ensure that production access is controlled and does not use generic or shared accounts.",
+        "Test of Operating Effectiveness": "1. Review and ensure that there are no generic or shared accounts.\n\n2. Validate for a sample of services that production access is controlled and is configured to use unique user accounts and that a generic or shared ID is not used..",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-12\nE-IAM-13",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-10",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Role Change: People Resources Notification",
+        "Control Description": "The People Resources system sends a notification to relevant management and relevant information system administrators in the event of an employee reassignment or transfer of an information system user.",
+        "Goal": "",
+        "Test of Design": "1. Design and document a process for Logical Access and requirements for access modification in case of transfer or reassignment.\n\n2. Ensure access management portal sends a notification to concerned personnel.",
+        "Test of Operating Effectiveness": "1. Inspect resource management portal to check if the relevant stakeholders are informed upon an event of an employee reassignment or transfer of an information system user.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-01\nE-IAM-02\nE-IAM-04\nE-IAM-15",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-11",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Temporary Account Termination",
+        "Control Description": "Temporary and emergency accounts are automatically terminated 90 days from the date they are generated.",
+        "Goal": "",
+        "Test of Design": "1. Design and document a process for Access control and requirements for automatic termination of temporary and emergency accounts.\n\n2. Ensure that the access management portal is configured to terminate temporary and emergency accounts within 90 days.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's access control policy to check policy pertaining to temporary and emergency accounts are automatically terminated 90 days from the date they are generated, is clearly defined. \n\n2. Check the access management tool to ensure the effectiveness of termination of temporary and emergency accounts within 90 days..",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-01\nE-IAM-14",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-12",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Unique Identifiers",
+        "Control Description": "Organization requires unique identifiers for user accounts and prevents identifier reuse.",
+        "Goal": "",
+        "Test of Design": "1. Ensure unique identifiers are used for user accounts.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Authentication Standard to determine whether unique identifier requirements are documented.\n\n2. Perform a walkthrough of user account creation of an existing user to determine whether identifier reuse is prevented.\n\n3. Obtain a complete list of existing users with identifiers to determine whether same identifier is not used for any two users.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-16\nE-IAM-02\nE-IAM-17\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-13",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Password Authentication",
+        "Control Description": "User and device authentication to privileged information systems is protected by passwords that meet Organization's password complexity requirements.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that user and device authentication to privileged information systems is protected by passwords that meet Organization's password complexity requirements.",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Authentication Standard to determine whether the policies contain requirements for the creation, allocation, change, distribution, and safeguarding of passwords.\n\n2. Inspect the accessmanagement tool setting to determine password complexity, consecutive re-use, and change frequency requirements of passwords is in accordance with organization password complexity requirements.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-IAM-16\nE-IAM-18\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-14",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Multifactor Authentication",
+        "Control Description": "Multi-factor authentication is required for:\n\u2022 remote VPN sessions\n\u2022 access to trusted data environments",
+        "Goal": "",
+        "Test of Design": "1. Ensure remote connection to the corporate network is invoked via VPN and VPN in turn invokes Multi-factor authentication",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Remote Access Standard to determine whether requirements for remotely connecting to the corporate network are defined.\n\n2. Observe a user remotely connect to the Organization Corporate Network via VPN.\n\n3. Inspect system configuration of VPN software to determine whether Multi-factor authentication is required.\n\n4. Perform a walkthrough of system connecting to Organization network remotely via vpn software to determine whether Multi- factor authentication is required for remote VPN session.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-19\nE-IAM-20\nE-IAM-21\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-15",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Authentication Credential Maintenance",
+        "Control Description": "Authorized personnel verify the identity of users before modifying authentication credentials on their behalf.",
+        "Goal": "",
+        "Test of Design": "1. Document and validate the process of modifying credentials.\n\n2. Ensure that verification is done before modification",
+        "Test of Operating Effectiveness": "1. Validate the process with the IT Helpdesk at least on an annual basis.\n\n2. Inspect whether necessary and updated documentation is available on the process.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-22\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-16",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Session Timeout",
+        "Control Description": "Information systems are configured to terminate inactive sessions after 15 minutes or when the user terminates the session.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that information systems are configured to terminate inactive sessions after 15 minutes or when the user terminates the session.",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Logical Access Account Standard to determine whether the requirements for access reviews were defined.\n\n2. Inspect the server samples from the service team.\n\n3. Select the sample from the listing and inspect session timeout configuration",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-01\nE-IAM-23\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-17",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Session Limit",
+        "Control Description": "Information systems are configured to limit concurrent login sessions and the inactive user interface is not displayed when the session is terminated.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the systems are configured to limit concurrent login sessions. \n\n2. Ensure that inactive user interface is not displayed when the session is terminated.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's access control policy to check clauses pertaining to limited concurrent login sessions and the inactive user interface is not displayed when the session is terminated are clearly defined. \n\n2. Check logical access systems to ensure the effectiveness for the same.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-24\nE-IAM-25\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-18",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Account Lockout: Cardholder Data Environments",
+        "Control Description": "Users are locked out of information systems after 6 invalid attempts for a minimum of 30 minutes, or until an administrator enables the user ID.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that user lock out parameters are defined and implemented to lockout after 6 invalid attempts for minimum 30 minutes.",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Authentication Standard to determine whether the policies contain requirements for the account lockout post failed login attempts.\n\n2. Inspect the logical access systems setting to determine that account lockout policy is configured with Organization password requirements to lock a user's account after 6 failed attempts for a minimum of 30 minutes or until it is reset by a System Administrator",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-16\nE-IAM-26\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-19",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Account Lockout",
+        "Control Description": "Users are locked out of information systems after multiple, consecutive invalid attempts within a defined period; accounts remain locked for a defined period.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that user lock out parameters are defined and implemented",
+        "Test of Operating Effectiveness": "1. Inspect Organization's access control policy to check clauses pertaining to accessing system by multiple failed attempts are clearly defined. \n\n2. Check check logical access systems to ensure the effectiveness for the same.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-16\nE-IAM-26\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-20",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Login Banner",
+        "Control Description": "Systems leveraged by the U.S. Federal Government present a login screen that displays the following language:\n\u2022 users are accessing a U.S. Government information system\n\u2022 system usage may be monitored, recorded, and subject to audit\n\u2022 unauthorized use of the system is prohibited and subject to criminal and civil penalties\n\u2022 use of the system indicates consent to monitoring and recording",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the Systems leveraged by the U.S. Federal Government present a login screen that displays the following language:\n\u2022 users are accessing a U.S. Government information system\n\u2022 system usage may be monitored, recorded, and subject to audit\n\u2022 unauthorized use of the system is prohibited and subject to criminal and civil penalties\n\u2022 use of the system indicates consent to monitoring and recording",
+        "Test of Operating Effectiveness": "1. Inspect and validate for a sample system that Systems leveraged by the U.S. Federal Government present a login screen that displays the following language:\n\u2022 users are accessing a U.S. Government information system\n\u2022 system usage may be monitored, recorded, and subject to audit\n\u2022 unauthorized use of the system is prohibited and subject to criminal and civil penalties\n\u2022 use of the system indicates consent to monitoring and recording",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-27\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-21",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Credentials Validation",
+        "Control Description": "Organization systems utilize Federal Identity, Credential, and Access Management (FICAM) components and conform to FICAM-issued profiles; systems verify and accept the following external credentials:\n\u2022 personal Identity Verification (PIV) credentials from federal agencies, and\n\u2022 FICAM-approved credentials from non-federal third-parties\n",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the organization uses Federal Identity, Credential, and Access Management (FICAM) components and conform to FICAM-issued profiles for Federal Systems.\n\n2. Ensure that the organization accepts personal Identity Verification (PIV) credentials from federal agencies and FICAM-approved credentials from non-federal third-parties",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether the organization uses Federal Identity, Credential, and Access Management (FICAM) components and conform to FICAM-issued profiles for Federal Systems.\n\n2. Validate that the organization accepts personal Identity Verification (PIV) credentials from federal agencies and FICAM-approved credentials from non-federal third-parties",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-27\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-22",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Password Authentication Standard: Federal Systems",
+        "Control Description": "Organization information systems obscure feedback of authentication information during the authentication process (e.g., the system does not disclose error information such as \"'user1' is not a valid username\") and have the following password requirements:\n\u2022 minimum of 12 characters\n\u2022 contains at least one upper-case letter, lower-case letter, number, and a special character\n\u2022 at least one of the characters is changed when the new passwords are created.\n\u2022 the password life span is between 1 to 60 days\n\u2022 password reuse is prohibited for 24 generations\n\u2022 only allow the use of temporary password system logons with an immediate change to a permanent password",
+        "Goal": "",
+        "Test of Design": "1. Ensure that failed authentication notes do not contain any error information.\n\n2. Ensure that the password policy in the logical access system is defined as below: \n-Minimum 12 character length\n-Password complexity has one upper-case, lower-case, and a special character\n-Temporary Passwords are immediately changed to a permanent password\n-Passwords cannot be the same as the last 24 passwords\n-Passwords must be rotated at least every 60 days",
+        "Test of Operating Effectiveness": "1. Inspect that failed authentication notes do not contain any error information.\n\n2. Inspect that the password policy in the logical access system and ensure that it is defined as below: \n-Minimum 12 character length\n-Password complexity has one upper-case, lower-case, and a special character\n-Temporary Passwords are immediately changed to a permanent password\n-Passwords cannot be the same as the last 24 passwords\n-Passwords must be rotated at least every 60 days",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-28\nE-IAM-18",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-23",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Privileged Session Management",
+        "Control Description": "Privileged logical access to trusted data environments is enabled through an authorized session manager; session user activity is recorded and tunnelling to untrusted data environments is restricted.",
+        "Goal": "",
+        "Test of Design": "1. Ensure Privileged logical access to trusted data environments is enabled through an authorized session manager.\n\n2. Ensure session user activity is recorded and documented.\n\n3. Tunnelling to untrusted data environments is restricted.",
+        "Test of Operating Effectiveness": "1. Observe user access management process for managing privileged access to trusted data environments in accordance with organization policies and verify the following:\n\u2022 Creation and allocation of privileged user accounts/IDs on the information systems is controlled through a formal authorization process.\n\u2022 Privilege access to trusted data environments are enabled through an authorized session manager\n\u2022 Privileged access rights are allocated to users on a time bound need-to-use basis and on an event-by-event basis in line with the access control policy, i.e. based on the minimum requirement for their functional roles and shall be revoked post that defined time period;\n\u2022 All session user activities are recorded and tunnelling to untrusted data environments is restricted\n\n2.  Inspect list of users that have privileged logical access to trusted data environments.\n\n3. For a sample of user, inspect evidence of screenshot showing privilege access to trusted data environments is granted by authorized session manager.\n\n4. Inspect configuration showing that session recording for user activity is recorded.\n\n5. Inspect configuration showing that tunneling to untrusted data environments is restricted.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-01\nE-IAM-29\nE-IAM-30\nE-IAM-31\nE-IAM-32\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-24",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Zero Trust Enterprise Network",
+        "Control Description": "Organization users are authenticated against a Zero Trust model prior to gaining access to organization resources.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for the organization's zero trust architecture.\n\n2. Ensure that a zero trust access authorization infrastructure is effectively operating for accessing organization's resources.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a process is defined and documented for the organization's zero trust architecture.\n\n2. Validate whether all access to organization's resources are via a zero trust method.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Control Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-24\nE-IAM-33\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-25",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Logical Access Role Permission Authorization",
+        "Control Description": "Initial permission definitions, and changes to permissions, associated with logical access roles are approved by authorized personnel.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that access to systems is granted after appropriate approvals.\n\n2. Ensure that production access is controlled via authentication methods.",
+        "Test of Operating Effectiveness": "1. Observe and validate for a sample user, that the access to the systems was approved by the appropriate party based on the business need.\n\n2. Validate for a sample of services, that production access is controlled via appropriate authentication methods and is configured to use appropriate logical access lists.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-12\nE-IAM-34\nE-IAM-35\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-26",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Source Code Security",
+        "Control Description": "Access to modify source code is restricted to authorized personnel.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that access to modify source code is restricted to authorized personnel.",
+        "Test of Operating Effectiveness": "1. Observe and validate the change management process for code development process.\n\n2. Observe configurations in code source management tools showing that only authorized users are able to make changes to source code.\n\n3. Observe a sample of code change tickets, to show that only authorized personnel were able to make the appropriate change necessary.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-36\nE-IAM-37\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-27",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Service Account Restrictions",
+        "Control Description": "Individual user or administrator use of service accounts for O/S, applications, and databases is prohibited.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Individual user or administrator use of service accounts for O/S, applications, and databases is prohibited.",
+        "Test of Operating Effectiveness": "1. Review all interactive service accounts used within the environment and confirm that they are disabled or removed.\n\n2. If interactive service accounts are in use these accounts should be stored in a shared credential management tool., and access to these accounts need to be tied back to an individual user.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-38\nE-IAM-39\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-28",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "PCI Account Restrictions",
+        "Control Description": "Organization clients with access to the cardholder data environment (CDE), as users or processes, are assigned unique accounts that cannot modify shared binaries or access data, server resources, or scripts owned by another CDE or Organization; application processes are restricted from operating in privileged-mode.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that in cases of multi-tenant environments one organization or user cannot effect the security or integrity of another organizations resources.\n\n2. Ensure that users are restricted from using privileged-mode.",
+        "Test of Operating Effectiveness": "1. Review the network architecture diagram and confirm that in cases of multi-tenant environments that one organization or user cannot effect the security or integrity of another organizations resources.\n\n2. Observe the application processes showing that they are restricted from using privileged-mode.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-24\nE-IAM-40\nE-IAM- 42\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-29",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Least Privilege",
+        "Control Description": "Role-based access is defined and deployed to restrict privileged access to information resources based on the concept of least privilege.",
+        "Goal": "",
+        "Test of Design": "1. Design and document the process for assigning least privilege access.\n\n2. Ensure access is granted as per required approvals.",
+        "Test of Operating Effectiveness": "1. Inspect logical access policy and validate that each role is assigned the correct level of access.\n\n2. Inspect the logical access systems and review how the access levels are granted for types of roles (Developers, SWE, SRE).\n\n3. For a sample of employees, inspect the level of access available and correlate to the job role and confirm that they are congruent.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-01\nE-IAM-41",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-30",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Virtual Private Network",
+        "Control Description": "Remote connections to the corporate network are accessed via VPN through managed gateways.",
+        "Goal": "",
+        "Test of Design": "1. Design and document process for requirements of remote connection to corporate network. \n\n2. Ensure all remote connections are via VPN.",
+        "Test of Operating Effectiveness": "1. Inspect Remote Access Standard to determine whether requirements for remotely connecting to the corporate network were defined.\n\n2. Inspect a user remotely connect to the Corporate Network via VPN.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Remote Access Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-19\nE-IAM-43",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-31",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Virtual Private Network: Restrict Split-Tunneling",
+        "Control Description": "VPN configurations restrict split-tunneling capabilities.",
+        "Goal": "",
+        "Test of Design": "1. Ensure split tunneling is not enabled.",
+        "Test of Operating Effectiveness": "1. Inspect the VPN configurations and ensure that split tunneling is not enabled. ",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Remote Access Procedure"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-IAM-43",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-32",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Ability to Disable Remote Sessions",
+        "Control Description": "Organization has a defined process and mechanisms in place to expeditiously disable or disconnect remote access to information systems within a defined time frame based on business need.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the server configuration for idle-session timeout is set to 15 minutes.\n\n2. Ensure that access credentials expiry configuration is present.\n\n3. Ensure remote connection tools such as (VPN or Management consoles) have session expirations enabled.",
+        "Test of Operating Effectiveness": "1. Inspect the server configuration showing that idle-session timeout is set to 15 minutes.\n\n2. Validate that access credentials expiry configuration is present.\n\n3. Inspect that remote connection tools such as (VPN or Management consoles) have session expirations enabled.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Remote Access Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-44\nE-IAM-45\nE-IAM-46",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-33",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Remote Maintenance: Authentication Sessions",
+        "Control Description": "Vendor accounts used for remote access are enabled only during the time period needed, disabled when not in use, and monitored while in use.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that vendor accounts that are used for remote access, have the following configurations:\n-Enabled only for the time period needed\n-Disabled when not in use\n-Monitored when in use",
+        "Test of Operating Effectiveness": "1. Validate that vendor accounts that are used for remote access, have the following configurations:\n-Enabled only for the time period needed\n-Disabled when not in use\n-Monitored when in use",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Remote Access Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-47",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-34",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Remote Maintenance: Unique Authentication Credentials for each Customer",
+        "Control Description": "Where applicable, Service providers with remote access to customer premises (e.g., for support of POS systems or servers) must use a unique authentication credential (such as a password/phrase) for each customer.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that remote access to customer premises are using unique individual credentials, and that there is no shared administrative access.",
+        "Test of Operating Effectiveness": "1. Inspect that remote access to customer premises are using unique individual credentials, and that there is no shared administrative access.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Remote Access Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-48",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-35",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Remote Maintenance: Authentication",
+        "Control Description": "Remote maintenance and diagnostic tool utilization are restricted to the minimum required level, strong authentication is required, and remote sessions are recorded. ",
+        "Goal": "",
+        "Test of Design": "1. Ensure remote maintenance and diagnostic tools have the following configurations:\n-Restricted to the minimum required level\n-Strong authentication\n-Remote sessions are recorded",
+        "Test of Operating Effectiveness": "1. Inspect remote maintenance and diagnostic tools and ensure that they have the following configurations:\n-Restricted to the minimum required level\n-Strong authentication\n-Remote sessions are recorded",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Remote Access Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-47",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-36",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Remote Maintenance: Audit",
+        "Control Description": "Organization documents and maintains records for vendor remote maintenance, diagnostic activities, and permissions granted. A listing of vendor remote maintenance connections is documented as well.",
+        "Goal": "",
+        "Test of Design": "1.Ensure vendor remote access is documented and that they include:\n-Maintenance activities\n-Diagnostic activities\n-Permissions granted\n\n2. Ensure that there is no unauthorized access be vendor or third parties.",
+        "Test of Operating Effectiveness": "1. Inspect documents and records for vendor remote access.\n\n2. Review the records and ensure that they include:\n-Maintenance activities\n-Diagnostic activities\n-Permissions granted\n\n3. Review the list of vendor remote connections and ensure that there is no unauthorized access.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Remote Access Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-49",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-37",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "End-user Environment Segmentation",
+        "Control Description": "Where applicable, processes that run as part of an Organization shared hosting platform will run under unique credentials that permit access to only one customer environment.",
+        "Goal": "",
+        "Test of Design": "1. Where applicable, ensure that the platform will run under unique credentials that permit access to only one customer environment.",
+        "Test of Operating Effectiveness": "1. Inspect application processes and validate that, where applicable, the platform will run under unique credentials that are permitted to access only one customer environment.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Customer Authentication Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-50",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-38",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "End-user Access to Applications and Data",
+        "Control Description": "Organization applications secure user data and maintain confidentiality by default or according to permissions set by the individual; Organization authenticates individuals with unique identifiers and passwords prior to enabling access to: \n\u2022 use the application \n\u2022 view or modify their own data",
+        "Goal": "",
+        "Test of Design": "1. Ensure that individuals are given unique identifiers and passwords prior to enabling access. \n\n2. Ensure that passwords used by the consumer are protected using proper encryption in transmission and storage.",
+        "Test of Operating Effectiveness": "1. Inspect the authentication method for consumers, and confirm that individuals are given unique identifiers and passwords prior to enabling access. \n\n2. Ensure that passwords used by the consumer are protected using proper encryption in transmission and storage.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Customer Authentication Standard"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-IAM-51\nE-IAM-52\nE-IAM-53",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IAM-39",
+        "Control Domain": "Identity and Access Management",
+        "Control Name": "Hardware Tokens",
+        "Control Description": "Where applicable, hardware token-based authentication is facilitated only by approved organizations.",
+        "Goal": "",
+        "Test of Design": "1. Design the process for hardware token-based authentication. \n\n2. Ensure that the hardware tokens are assigned to the corresponding users.",
+        "Test of Operating Effectiveness": "1. Inspect the process by which hardware token-based authentication is distributed, used, and collected.\n\n2. For a sample of users, inspect the inventory of the hardware tokens and ensure that they are assigned to the corresponding users.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IAM-54\nE-IAM-55",
+        "Mapping": ""
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "CC ID": "CMS-01",
+        "Control Domain": "Customer Managed Security",
+        "Control Name": "Customer Administrative Access",
+        "Control Description": "For products that enable customers to manage their end users, privileged user roles exist with the capability to manage end user access to the relevant applications.",
+        "Goal": "",
+        "Test of Design": "1. In cases where customers can manage the access of their end users, ensure that ability to configure privileged user roles exist.\n\n2. Ensure that the customer's privileged user roles can manage end user access to the relevant applications.",
+        "Test of Operating Effectiveness": "1. Validate whether the customers can configure privileged user roles.\n\n2. Inspect whether the customer defined privileged user roles can manage end user access to relevant applications.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Control Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CMS-01\n\nE-CMS-05",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CMS-02",
+        "Control Domain": "Customer Managed Security",
+        "Control Name": "Customer Authentication",
+        "Control Description": "Authentication to organization customer-facing applications are  performed through secure log-on procedures.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that authentication to organization customer-facing applications are performed through secure log-on procedures.",
+        "Test of Operating Effectiveness": "1. Inspect whether the authentication to organization customer-facing applications are performed through secure log-on procedures.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Control Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CMS-02",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CMS-03",
+        "Control Domain": "Customer Managed Security",
+        "Control Name": "Customer Systems Monitoring",
+        "Control Description": "As necessary, event logs are made available to customers.",
+        "Goal": "",
+        "Test of Design": "1. Establish a process for the customers to access event logs as needed. ",
+        "Test of Operating Effectiveness": "1. Inspect the customer console to determine how the event logs are made available to the customer.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CMS-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CMS-04",
+        "Control Domain": "Customer Managed Security",
+        "Control Name": "Customer Security Engagements",
+        "Control Description": "Organization supports customer-requested security inquiries, questionnaires, and audits:\n\u2022 in accordance with customer contracts and agreements\n\u2022 to facilitate due diligence prior to licensing organization products",
+        "Goal": "",
+        "Test of Design": "1. Establish a documented process to support customer-requested security inquiries, questionnaires, and audits:\n\u2022 in accordance with customer contracts and agreements\n\u2022 to facilitate due diligence prior to licensing organization products",
+        "Test of Operating Effectiveness": "1. Validate whether a process in place to support customer-requested security inquiries, questionnaires, and audits:\n\u2022 in accordance with customer contracts and agreements\n\u2022 to facilitate due diligence prior to licensing organization products\n\n2. Inspect a sample customer inquiry, questionnaire, or audit.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Customer Authentication Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CMS-02\n\nE-CMS-04",
+        "Mapping": ""
+    }
+]

@@ -1,0 +1,257 @@
+[
+    {
+        "CC ID": "CRY-01",
+        "Control Domain": "Cryptography",
+        "Control Name": "Encryption Key Maintenance",
+        "Control Description": "Cryptographic keys are invalidated when compromised or at the end of their defined lifecycle period.",
+        "Goal": "",
+        "Test of Design": "1. Establish a process to ensure that organization approved key storage solutions are used.\n\n2. Ensure that access to the cryptographic key stores is limited to authorized personnel.\n\n3. Establish a process to periodically review the users access list for the keys and document the confirmation that these are authorized users.\n\n4. Establish a process to ensure that the keys are rotated during either of the below events:\na) Suspicion that the key has been compromised\nb) End of key life cycle\n\n7. In case of termination or transfer of an individual with access to the key, establish a process for access review and key rotation.",
+        "Test of Operating Effectiveness": "1. Inspect the process and location of where Encryption keys are stored.\n\n2. Obtain details of the process to ensure that access to the cryptographic key stores is limited to authorized personnel.\n\n3. Review the users access list for the keys and confirmation that these are authorized users.\n\n4. Obtain confirmation of key rotation at the occurence of either of the below events during last quarter:\na) Suspicion that the key has been compromised\nb) End of key life cycle\n\n7. For a sample of termination or transfer of an individual with access to the key, and review the process of key rotation.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Cryptographic Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-01\n\nE-CRY-02\n\nE-CRY-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-02",
+        "Control Domain": "Cryptography",
+        "Control Name": "Encryption Key Distribution",
+        "Control Description": "Organization prohibits the distribution of cryptographic keys in clear text.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the Key management policy hass a prohibition on the distribution of cryptographic keys in clear text.",
+        "Test of Operating Effectiveness": "1. Inspect the Key management policy that shows that there is a prohibition on the distribution of cryptographic keys in clear text.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Key Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-04",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-03",
+        "Control Domain": "Cryptography",
+        "Control Name": "Encryption Key Storage",
+        "Control Description": "Encryption keys are securely stored in an approved encryption platform.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that key management standard includes management operations using one of the listed options below, for encrypting and decrypting cardholder data:\n-Key-encrypting key is at least as strong as the data-encrypting key and is stored separately from the data-encrypting key\n-Stored within a cryptographic device\n-Keys are stored as at least two full-length key components or key shares\n",
+        "Test of Operating Effectiveness": "1. Inspect and review the key management standard, to ensure that the management operations are using one of the listed options below, for encrypting and decrypting cardholder data:\n-Key-encrypting key is at least as strong as the data-encrypting key and is stored separately from the data-encrypting key\n-Stored within a cryptographic device\n-Keys are stored as at least two full-length key components or key shares\n\n2. Inspect the process and validate that one of the above methods are being used to protect the keys.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Key Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-04",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-04",
+        "Control Domain": "Cryptography",
+        "Control Name": "Clear Text Key Management",
+        "Control Description": "If applicable, manual clear-text cryptographic key-management operations must be managed using split knowledge and dual control.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the key management standard includes guidance on management operations being managed using split knowledge and dual controls.\n\n2. Establish a key custodian acknowledgement form.\n\n3. Ensure that when split knowledge is in place, both key components are 2 full keys, not 1 key split into 2 components.",
+        "Test of Operating Effectiveness": "1. Inspect and review the key management standard, to ensure that the management operations are managed using split knowledge and dual controls.\n\n2. Observe and confirm a sample key custodian acknowledgement form.\n\n3. Inspect that if split knowledge is in place both key components are 2 full keys, not 1 key split into 2 components.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Cryptographic Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-04\n\nE-CRY-05",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-05",
+        "Control Domain": "Cryptography",
+        "Control Name": "Encryption of Data in Transit",
+        "Control Description": "Organization restricted data that is transmitted over public networks is encrypted.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Organization\u2019s Data Classification and Handling Standard and Data Encryption Standard includes requirements for encrypting data at rest.\n\n2. Ensure that the data sent in transit is encrypted by performing the following:\n\na. Latest TLS version and cipher suites usage over browser.\nb. Use valid digital certificates by the endpoint.\nc. Period check by running a Qualys provided SSL labs feature that scans and endpoint and enumerates all ciphers and TLS versions permitted on an end point\n\n3. If the service does not have public facing endpoints, ensure that the configuration of the load balancer and corresponding Security group with details of TLS versions allows and cipher suites allowed.\n\n4. Ensure that the expired SSL certificates are identified and remediated.",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Data Classification and Handling Standard and Data Encryption Standard to determine whether requirements for encrypting data at rest were defined.\n\n2. Obtain the list of all public facing endpoints for the service. Inspect each public facing endpoint to determine if data sent in transit is encrypted by performing the following:\n\na. Inspecting the TLS version and cipher suites being used over browser.\nb. Inspecting the validity of the digital certificates being used by the endpoint.\nc. Running a Qualys provided SSL labs feature that scans and endpoint and enumerates all ciphers and TLS versions permitted on an end point\n\n3. If the service does not have public facing endpoints, obtain configuration of the load balancer and corresponding Security group with details of TLS versions allows and cipher suites allowed.\n\n4. Obtain the list of expired SSL certificates and validate whether. tracking and remediation of the expired SSL were performed.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Cryptographic Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-06\n\nE-CRY-07\n\nE-CRY-08\n\nE-CRY-09\n\nE-CRY-10\n\nE-CRY-11\n\nE-CRY-12\n\nE-CRY-13",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-06",
+        "Control Domain": "Cryptography",
+        "Control Name": "Encryption of Data at Rest",
+        "Control Description": "Organization restricted data at rest is encrypted.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Organization\u2019s Data Classification and Handling Standard and Data Encryption Standard includes requirements for encrypting data at rest.\n\n2. Where data at rest shall be encrypted as per Data Classification and Handling Standard, ensure the following:\n\na. Ensure encryption is enabled along with type of encryption algorithm being used as applicable (e.g. for AWS S3 - AWS SSE-KMSetc., full disk encryption for on prem databases).\n\nb. Ensure that only strong encryption algorithms mandated by Organization Cryptography standard are in use where applicable.\n\nc. Establish a process to periodically check the list of all cloud storage resources and determine whether encryption was appropriately applied as applicable.",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Data Classification and Handling Standard and Cryptography Standard to determine whether requirements for encrypting restricted data at rest have been defined.\n\n2. Obtain confirmation from teams that storage of data is in place. For services storing restricted data at rest, obtain and inspect the following:\n\na. List of all databases/storage locations (AWS/Azure Databases, On prem databases, etc.) where data is stored at rest.\n\nb. For all the above locations, obtain evidence showing that encryption is enabled along with the type of encryption algorithm being used as applicable (e.g. for AWS S3 - AWS SSE-KMSetc., full disk encryption for on prem databases) to ensure that only strong encryption algorithms mandated by Organization Cryptography standard are in use where applicable.\n\nc. Obtain the list of all cloud storage resources and determine whether encryption was appropriately applied as applicable.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Cryptographic Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-06\n\nE-CRY-07\n\nE-CRY-14\n\nE-CRY-16\n\nE-CRY-15\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-07",
+        "Control Domain": "Cryptography",
+        "Control Name": "Approved Cryptographic Technology",
+        "Control Description": "Where applicable, strong industry standard cryptographic ciphers and keys with an effective strength greater than 112 bits are required for cryptographic security operations.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the encryption is enabled along with type of encryption algorithm being used as applicable (e.g. for AWS S3 - AWS SSE-KMSetc., full disk encryption for on prem databases).\n\n2. Ensure that strong industry standard cryptographic ciphers and keys with an effective strength greater than 112 bits are required for cryptographic security operations.\n\n",
+        "Test of Operating Effectiveness": "1. Validate evidence showing that encryption is enabled along with type of encryption algorithm being used as applicable (e.g. for AWS S3 - AWS SSE-KMSetc., full disk encryption for on prem databases) to ensure that only strong encryption algorithms mandated by Organization Cryptography standard are in use where applicable.\n\n2. Validate whether the keys have a strength greater than 112 bits for cryptographic security operations.\n",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Cryptographic Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-06\n\nE-CRY-07",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-08",
+        "Control Domain": "Cryptography",
+        "Control Name": "Key Repository Access",
+        "Control Description": "Access to the cryptographic keystores is limited to authorized personnel.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the access lists of the key repositories have authorized users and reviewed periodically.",
+        "Test of Operating Effectiveness": "1. Inspect the access lists of the key repositories and ensure that the users listed are authorized and reviewed previously.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Cryptographic Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-17",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-09",
+        "Control Domain": "Cryptography",
+        "Control Name": "Key Store Review",
+        "Control Description": "Management reviews and authorizes key store locations.",
+        "Goal": "",
+        "Test of Design": "1. Establish a process to review key management services to ensure that they are still authorized key stores.\n\n2. The list of authorized key stores shall be reviewed periodically.",
+        "Test of Operating Effectiveness": "1. Inspect and review key management services to ensure that they are still authorized key stores.\n\n2. Review the list of authorized key stores and their last date of review.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Key Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-18",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-10",
+        "Control Domain": "Cryptography",
+        "Control Name": "Full Disk Encryption Access",
+        "Control Description": "Where full disk encryption is used, logical access must be managed independently of operating system authentication; decryption keys must not be associated with user accounts.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the decryption keys are stored in a Trusted Platform Module (TPM).\n\n2. Ensure that the decryption keys are not stored as plain text in insecure storage locations.",
+        "Test of Operating Effectiveness": "1. Confirm that the decryption keys are stored in a Trusted Platform Module (TPM).\n\n2. Confirm that the decryption keys are not stored as plain text in insecure storage locations.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Access Management Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-19",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-11",
+        "Control Domain": "Cryptography",
+        "Control Name": "Key Custodians Agreement",
+        "Control Description": "Cryptographic Key Custodians\u00a0and\u00a0Cryptographic Materials Custodians (CMC) acknowledge in writing or electronically that they understand and accept their cryptographic-key-custodian responsibilities.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Key Custodian Acknowledgements are signed by cryptographic key custodians, which will provide assurance of appropriate acknowledgement to the key custodian responsibilities.",
+        "Test of Operating Effectiveness": "1. Obtain and inspect a sample of signed Key Custodian Acknowledgements to validate that cryptographic key custodians have appropriately acknowledged their key custodian responsibilities.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Cryptographic Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-20",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-12",
+        "Control Domain": "Cryptography",
+        "Control Name": "Approved Certificate Authorities",
+        "Control Description": "Organization restricts the use of digital certificates to those that are signed by approved certificate authorities; a certification path to an accepted trust anchor is established.",
+        "Goal": "",
+        "Test of Design": "1. Establish a process for executing periodic SSL tests to ensure that only digital certificates that are signed by approved certificate authorities are accepted.",
+        "Test of Operating Effectiveness": "1. Observe a sample of servers and review their SSL test.\n\n2. Observe the SSL test and confirm that only digital certificates that are signed by approved certificate authorities are accepted.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Key Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-21",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-13",
+        "Control Domain": "Cryptography",
+        "Control Name": "Installation of Software: Certificate Verification",
+        "Control Description": "Digital Certificates are verified by information system components prior to installation on the production network.",
+        "Goal": "",
+        "Test of Design": "1. Establish a process for executing periodic SSL tests and configuration files to ensure that digital certificates are verified prior to installation on production networks.",
+        "Test of Operating Effectiveness": "1. Observe a sample of servers and review their SSL test.\n\n2. Observe the SSL test and configuration files and ensure that digital certificates are verified prior to installation on production networks.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Key Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-21\n\nE-CRY-22",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-14",
+        "Control Domain": "Cryptography",
+        "Control Name": "Public Key Infrastructure-based Authentication",
+        "Control Description": "Information systems are configured to follow an established certification path to an accepted trust anchor; in the case of network failure, a local cache of revocation data is maintained to support validation.",
+        "Goal": "",
+        "Test of Design": "1. Establish a process for executing periodic SSL tests to ensure that the identified Certificate authority is authorized to act as a trust anchor.",
+        "Test of Operating Effectiveness": "1. Observe a sample of servers and domains and review their SSL test.\n\n2. Observe the Certificate authority and ensure that it is an authorized to act as a trust anchor.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Key Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-21",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "CRY-15",
+        "Control Domain": "Cryptography",
+        "Control Name": "Software Signing",
+        "Control Description": "Organization uses a software signing infrastructure to restrict access to organization\u2019s code signing private keys used to sign organization authorized software builds.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for software signing.\n\n2. Ensure that the private keys used for software signing are accessible only to a restricted set of personnel.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a process is defined and documented for software signing.\n\n2. Validate whether the private keys used for software signing are accessible only to a restricted set of personnel.\n\n3. Validate that periodic access reviews are performed for these keys.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Secure Development Lifecycle Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-CRY-23\n\nE-CRY-24",
+        "Mapping": ""
+    }
+]

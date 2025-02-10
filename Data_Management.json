@@ -1,0 +1,376 @@
+[
+    {
+        "CC ID": "DM-01",
+        "Control Domain": "Data Management",
+        "Control Name": "Data Classification Criteria",
+        "Control Description": "Organization's data classification criteria are periodically reviewed, approved by management, and communicated to authorized personnel; the data security management team determines the treatment of data according to its designated data classification level.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a Data Classification Criteria is defined and documented.\n\n2. Ensure that this criteria is reviewed and approved periodically and appropriate documentation for the review is retained.\n\n3. Ensure that a process is defined and implemented to ensure data is treated according to its data classification level. ",
+        "Test of Operating Effectiveness": "1. Inspect Organization's policy and/or standard to determine whether Organization\u2019s data classification criteria is defined.\n\n2. Inspect whether the criteria is periodically reviewed and approved by the management.\n\n3. Validate using sample testing that data is categorized and treated according to its data classification level and defined controls.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "Quarterly",
+        "Evidence Artifacts": "E-DM-01\n\nE-DM-02\n\nE-DM-03 ",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-02",
+        "Control Domain": "Data Management",
+        "Control Name": "Data Inventory",
+        "Control Description": "Organization should identify, label and classify Data based on the Data Classification Criteria.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process for identifying data is defined and documented in the organization.\n\n2. Ensure that the data is labelled and classified as per the Data Classification criteria.",
+        "Test of Operating Effectiveness": "1. Inspect and validate in the Organization's policy and/or standard whether a process for identifying data is defined in the organization.\n\n2. Validate for a sample of data, that it is labelled and classified as per the Data Classification criteria.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "Quarterly",
+        "Evidence Artifacts": "E-DM-01\n\nE-DM-03 ",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-03",
+        "Control Domain": "Data Management",
+        "Control Name": "Terms of Service",
+        "Control Description": "Consent is obtained for Organization's Terms of Service (ToS) prior to collecting personal information and when the ToS is updated.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that organizations Terms of Service are defined and documented.\n\n2. Ensure that a process is defined for updating the Terms of Service which includes recapturing of consent.\n\n3. Ensure that the consent is taken for the Terms of Service prior to collecting personal information.",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether Terms of Service are defined and documented for the organization.\n\n2. Inspect whether the Terms of Service are updated periodically and ensure that consent is recaptured after updates.\n\n3. For sample of customers validate whether consent was obtained before collection of personal information.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-04\n\nE-DM-05\n\nE-DM-06",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-04",
+        "Control Domain": "Data Management",
+        "Control Name": "Personal Information Access Requests",
+        "Control Description": "In accordance with Organization policy, upon request, authenticated individuals are provided with a copy of their personal information or disclosures of their personal information in an understandable form and within the defined timeframe.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined, documented, and communicated for requesting a copy of personal information.\n\n2. Ensure that on request a copy of personal information is provided to authenticated individuals as per the policy.\n\n3. Ensure that the information is provided in an understandable form and in a timely manner as per the policy",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether a documented process is defined, and communicated for requesting a copy of personal information.\n\n2. Validate whether on request a copy of personal information was provided to authenticated individuals.\n\n3. Validate that the information was provided in an understandable form and in a timely manner.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Privacy Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PRIV-01\n\nE-DM-07",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-05",
+        "Control Domain": "Data Management",
+        "Control Name": "Personal Information Deletion Requests",
+        "Control Description": "In accordance with Organization policy, Organization processes requests for the deletion of personal information.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined, documented, and communicated for requesting deletion of personal information.\n\n2. Ensure that on request personal information is deleted as per the policy.",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether a documented process is defined, and communicated for requesting deletion of personal information.\n\n2. Validate whether on request personal information was deleted as per organization's policy.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Privacy Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PRIV-01\n\nE-DM-08",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-06",
+        "Control Domain": "Data Management",
+        "Control Name": "External Privacy Inquiries",
+        "Control Description": "In compliance with Organization policy, Organization reviews privacy-related inquiries, complaints, and disputes.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined, documented and communicated for review of privacy-related inquiries, complaints, and disputes.\n\n2. Ensure that these inquiries, complaints, and disputes are addressed in a timely and well communicated manner.",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether a documented process is defined, and communicated for review of privacy-related inquiries, complaints, and disputes.\n\n2. Validate for a sample whether these inquiries, complaints, and disputes are addressed in a timely and well communicated manner.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Privacy Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PRIV-01\n\nE-DM-09",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-07",
+        "Control Domain": "Data Management",
+        "Control Name": "Test Data Sanitization",
+        "Control Description": "Restricted data is redacted prior to use in a non-production environment.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined, documented, and communicated for redacting or not using production data in test environments.\n\n2. Ensure that sufficient tools and processes exists for creation of dummy test data for testing purposes.",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether a documented process is defined, and communicated for redacting or not using production data in test environments.\n\n2. Validate for a sample, whether any production data is used in test environments.\n\n3. Validate how test data is generated and used for testing.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Secure Development Lifecycle Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-VM-15\n\nE-DM-10",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-08",
+        "Control Domain": "Data Management",
+        "Control Name": "Personal Information Updates",
+        "Control Description": "Organization allows authenticated users to review and update their personal information.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined, documented, and communicated regarding access and update to personal information.\n\n2. Ensure that appropriate justifications are provided for any denied access or update requests.\n\n3. Ensure that a process is defined, documented, and communicated for appealing the denial of access or update request.",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether a documented process exists regarding access and update to personal information.\n\n2. Validate that for any denied access or update requests, appropriate justifications were provided.\n\n3. Inspect and validate whether a documented process exists for appealing the denial of access or update request.\n\n4. Ensure that the access or update request process is well communicated.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-11\n\nE-DM-12\n\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-09",
+        "Control Domain": "Data Management",
+        "Control Name": "Credit Card Data Restrictions",
+        "Control Description": "Organization does not store full track credit card data, credit card authentication information, credit card verification code, or credit personal identification number (PIN) which Organization processes for payment.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for redaction of credit card data.\n\n2. Ensure that the organization does not store full track credit card data, credit card authentication information, credit card verification code, or personal identification number (PIN).",
+        "Test of Operating Effectiveness": "1. Validate that full credit card track data and sensitive authentication data is not stored in the databases of the Organization.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-13\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-10",
+        "Control Domain": "Data Management",
+        "Control Name": "Primary Account Number Data Restrictions",
+        "Control Description": "Organization restricts primary account number (PAN) data such that only the first six and last four digits are displayed; authorized users with a legitimate business need may be provided the full PAN.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for redaction of credit card data.\n\n2. Ensure that the organization restricts primary account number (PAN) data such that only the first six and last four digits are displayed.\n\n3. Ensure that a process is defined to provide full PAN to authorized users with a legitimate business need.",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether a documented process exists for redaction of credit card data.\n\n2. Validate that primary account number is stored such that only the first six and last four digits are displayed.\n\n3. Inspect and validate whether a documented process exists to provide full PAN to authorized users with a legitimate business need.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-01\n\nE-DM-13\n\nE-DM-14",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-11",
+        "Control Domain": "Data Management",
+        "Control Name": "Personal Information Inventory",
+        "Control Description": "Organization maintains a documented inventory of media containing personal information.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that an inventory of media containing personal information is documented, approved, and communicated to appropriate stakeholders.\n\n2. Ensure that this inventory is reviewed and update periodically.",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether an inventory of media containing personal information is formally documented.\n\n2. Ensure that a process is defined to review and update the inventory periodically.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-01\n\nE-DM-15",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-12",
+        "Control Domain": "Data Management",
+        "Control Name": "Changes to Data at Rest",
+        "Control Description": "Organization uses mechanisms to detect direct changes to the integrity of customer data and personal information; Organization takes action to resolve confirmed unauthorized changes to data.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented to detect unauthorized changed to customer data.\n\n2. Ensure that appropriate alerts are sent and actions are taken to resolve unauthorized changes.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a process is defined and documented to detect unauthorized changed to customer data.\n\n2. Validate whether alerts are sent and actions were taken to resolve unauthorized changes.",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-01\n\nE-DM-16",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-13",
+        "Control Domain": "Data Management",
+        "Control Name": "Data Processing Integrity",
+        "Control Description": "System checks are in place to ensure both complete and accurate capture of data in process.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for ensuring data integrity in transit and at rest\n\n2. Ensure appropriate tests are used to check checksums or hashes to ensure data integrity.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a process for ensuring data integrity in transit and at rest is defined and documented.\n\n2. Validate and inspect the tests used to check checksums or hashes to ensure data integrity",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-01\n\nE-DM-16",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-14",
+        "Control Domain": "Data Management",
+        "Control Name": "Secure Disposal of Media",
+        "Control Description": "Organization securely erases media containing decommissioned restricted data and obtains a certificate or log of erasure; media pending erasure are stored within a secured facility.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that requirements for destroying media containing decommissioned restricted data are defined and documented.\n\n2. Ensure that the requirements for maintaining a log of such activities is defined.\n\n3. Ensure that appropriate records are maintained for such activities.\n\n4. Ensure a security facility is designated to store such media prior to erasure.\n\n5. Ensure a certificate of erasure is obtained for such media post erasure completion.",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether requirements for destroying media containing decommissioned restricted data are defined and documented.\n\n2. Inspect and validate that the requirements for maintaining a log of such activities is defined.\n\n3. Validate that appropriate records are maintained for such activities.\n\n4. For a sample of records, validate that a certificate of erasure was obtained for such media post erasure completion.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "Quarterly",
+        "Evidence Artifacts": "E-DM-01\n\nE-DM-17",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-15",
+        "Control Domain": "Data Management",
+        "Control Name": "Customer Data Retention and Deletion",
+        "Control Description": "Organization purges or archives data according to customer requests or legal and regulatory mandates.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined, documented, and communicated for requesting deletion or archival of personal information.\n\n2. Ensure that on customer's request or as per legal/regulatory mandates, personal information is deleted/archived as per the policy.",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether a documented process is defined & communicated for requesting deletion/archival of personal information.\n\n2. Validate whether on customer's request or as per legal/regulatory mandates personal information is deleted/archived as per the policy.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Privacy Policy"
+        },
+        "Frequency": "Quarterly",
+        "Evidence Artifacts": "E-PRIV-01\n\nE-DM-08",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-16",
+        "Control Domain": "Data Management",
+        "Control Name": "Removal of PHI from Media",
+        "Control Description": "Organization removes electronic protected health information from electronic media if the media is made available for re-use.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for removal of Protected Health Information from electronic media if the media is made available for reuse.\n\n2. Ensure that validation is done to ensure that no protected health information exists on the media before reuse.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a process is defined and documented for removal of Protected Health Information from electronic media if the media is made available for reuse.\n\n2. Inspect whether validation is done to ensure that no protected health information exists on the media before reuse.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-01",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-17",
+        "Control Domain": "Data Management",
+        "Control Name": "Secure Disposal of Media: Testing",
+        "Control Description": "Organization tests sanitization procedures and equipment annually for effectiveness.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for testing of sanitization procedures.\n\n2. Ensure that the sanitization procedures are tested annually and appropriate records are maintained.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a process is defined and documented for testing of sanitization procedures.\n\n2. Validate whether the sanitization procedures were tested annually.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-01\n\nE-DM-18",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-18",
+        "Control Domain": "Data Management",
+        "Control Name": "Personal Information Retention and Deletion",
+        "Control Description": "Organization retains and deletes personal information from Organization and service provider systems in accordance with Organization policy.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for retention and deletion of personal information.\n\n2. Ensure that the personal information is retained and deleted as per the process from organization and service provider systems.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a process is defined and documented for retention and deletion of personal information.\n\n2. Validate whether the personal information was retained and deleted as per the process.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-01 \n\nE-DM-19",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-19",
+        "Control Domain": "Data Management",
+        "Control Name": "Temporary Storage of Personal Information",
+        "Control Description": "Temporary files and documents containing personal information are deleted in accordance with a timeframe consistent with Organization policy.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for deletion of temporary files.\n\n2. Ensure that temporary files are deleted within a defined timeframe as per the process.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a process is defined and documented for deletion of temporary files.\n\n2. Validate the configuration for deletion of temporary files and ensure that the timeframe is as per the process.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-01\n\nE-DM-20",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-20",
+        "Control Domain": "Data Management",
+        "Control Name": "Social Media",
+        "Control Description": "Sharing Organization restricted data via messaging technologies, social media, and public websites is prohibited.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined, documented, and communicated which prohibits sharing of restricted data via messaging technologies, social media, and public websites.\n\n2. Ensure that appropriate mechanisms are in place to detect such activities.",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether a process is defined, documented and communicated which prohibits sharing of restricted data via messaging technologies, social media, and public websites.\n\n2. Validate whether appropriate mechanisms are in place to detect such activities and alerts are generated.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-01\n\nE-DM-21",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-21",
+        "Control Domain": "Data Management",
+        "Control Name": "Publicly Accessible Content",
+        "Control Description": "Organization protects its public information system presence with the following processes: only authorized and trained individuals may post public information, content is reviewed prior to publishing, information on public systems is reviewed periodically, and non-public information is removed from public systems upon discovery.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined, documented, and communicated regarding publishing of information on public websites.\n\n2. Ensure public information is reviewed periodically.\n\n3. Ensure appropriate process is defined for removing non-public information from public websites.\n\n4. Ensure appropriate access control exists for posting information on public websites.",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether a process is defined, documented, and communicated regarding publishing of information on public websites.\n\n2. Validate whether public information is reviewed periodically.\n\n3. Validate the process for removing non-public information from public websites.\n\n4. Validate that appropriate access control exists for posting information on public websites.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-01\n\nE-DM-23",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "DM-22",
+        "Control Domain": "Data Management",
+        "Control Name": "Data Loss Prevention",
+        "Control Description": "Data loss prevention capabilities are implemented to protect sensitive information as it is stored, transmitted, and processed.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Data Loss Prevention solution is enabled on systems to protect sensitive data as it is stored, transmitted, and processed.\n\n2. Ensure appropriate alerts are sent and actions are taken to remediate any deviations.",
+        "Test of Operating Effectiveness": "1. Validate whether that Data Loss Prevention solution is enabled on a sample system.\n\n2. Validate whether appropriate alerts are sent and actions are taken to remediate any deviations.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-DM-22\n\nE-DM-21",
+        "Mapping": ""
+    }
+]

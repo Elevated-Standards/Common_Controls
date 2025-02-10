@@ -1,0 +1,104 @@
+[
+    {
+        "CC ID": "BC-01",
+        "Control Domain": "Business Continuity",
+        "Control Name": "Business Continuity Plan",
+        "Control Description": "Organization's business contingency plan is periodically reviewed, approved by management and communicated to relevant team members.",
+        "Goal": "",
+        "Test of Design": "1. Design and document a process for Business Continuity and Disaster Recovery.\n\n2. Define steps for recovery with all roles and responsibilities in the Business Continuity Plan.\n\n3. Ensure that the Business Continuity Plan is approved by the process owners, and is communicated to all the relevant team members.",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether the Business Continuity and Disaster Recovery Processes are designed and documented.\n\n2. Inspect Organization's Business Continuity Plan (\u201cBCP\u201d) to determine whether Organization has established recovery steps and phases, recovery capabilities, and identified personnel responsible to execute recovery procedures.\n\n3. Inspect the most recent version of Organization\u2019s BCP to determine whether it is periodically reviewed and approved.\n\n4. Inspect the corporate intranet to determine whether Organization\u2019s BCP is communicated to relevant team members.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Business Continuity Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-BC-01\nE-BC-02",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "BC-02",
+        "Control Domain": "Business Continuity",
+        "Control Name": "Business Continuity Plan: Personal Health Information",
+        "Control Description": "Organization's Business Contingency Plan addresses how to access facilities and obtain data during an emergency.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that steps to be followed in case of an emergency are clearly mentioned in the Business Continuity Plan so that access to the facilities and data is facilitated during an emergency.",
+        "Test of Operating Effectiveness": "1. Inspect an organization's Business Contingency Plan to determine whether Organization has addresses how to access facilities and obtain data during an emergency.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Business Continuity Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-BC-02",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "BC-03",
+        "Control Domain": "Business Continuity",
+        "Control Name": "Business Continuity Plan: Roles and Responsibilities",
+        "Control Description": "Business contingency roles and responsibilities are assigned to individuals and their contact information is communicated to authorized personnel.",
+        "Goal": "",
+        "Test of Design": "1. Check that roles and responsibilities are clearly defined in the Business Continuity Plan. There should be proper demarcation of responsibilities during each phase of the crisis.\n\n2. Ensure that the contact information for all the stakeholders is defined within Business Continuity Plan and should be up to date, documented, and communicated to all authorized personnel.\n\n3. Ensure that people with roles and responsibilities within Business Continuity Plans are well aware of their responsibilities.",
+        "Test of Operating Effectiveness": "1. Inspect documentation consisting of business contingency roles and responsibilities. .\n\n2. Inspect whether the contact information of personnel with business continuity responsibilities are documented within the Business Continuity Plan.\n\n3. Inspect evidence to check whether roles and responsibilities are communicated to all applicable stakeholders and audience",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Business Continuity Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-BC-02",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "BC-04",
+        "Control Domain": "Business Continuity",
+        "Control Name": "Continuity Testing",
+        "Control Description": "Organization performs business contingency and disaster recovery tests on a periodic basis and ensures the following: \n\u2022 tests are executed with relevant contingency teams\n\u2022 test results are documented\n\u2022 corrective actions are taken for exceptions noted\n\u2022 plans are updated based on results",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Business Continuity testing should be performed on a periodic basis as per the organization policy.\n2. The business continuity testing should emulate the Business Continuity Plan and should check the coverage and efficiency of the plan. All the relevant team preparedness should be assessed in this testing.\n3. Ensure that the test results are documented, and any exceptions are noted and appropriate corrective action is undertaken.",
+        "Test of Operating Effectiveness": "1. Inspect whether Business Continuity Testing was performed on a periodic basis as per the organization's policy.\n\n2. Inspect the most recent BCP test and inspect DR tests results to determine whether tests were executed and results were documented.\n\n3. Validate whether the results of the testing exercises were tracked to remediation.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Business Continuity Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-BC-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "BC-05",
+        "Control Domain": "Business Continuity",
+        "Control Name": "Business Impact Analysis",
+        "Control Description": "Organization identifies the business impact of relevant threats to assets, infrastructure, and resources that support critical business functions. Recovery objectives are established for critical business functions.",
+        "Goal": "",
+        "Test of Design": "1. Design and document a process for conducting Business Impact Analysis to determine the criticality of business activities and associated resource requirements.\n\n2. Ensure that BIA is conducted for all processes and assets to identify criticality.\n\n3. Ensure that recovery objectives are established for critical processes.\n\n ",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether a documented process exists for conducting Business Impact Analysis.\n2. Inspect Business Impact Analysis to determine whether the threats to assets, infrastructure, and resources are identified and the recovery objectives are established.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Business Continuity Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-BC-01\nE-BC-02",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "BC-06",
+        "Control Domain": "Business Continuity",
+        "Control Name": "Capacity Forecasting",
+        "Control Description": "Budgets for infrastructure capacity are established based on analysis of historical business activity and growth projections; purchases are made against the established budget and plans are updated on a quarterly basis.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that  capacity forecasts are created based on the business forecasts, growth projections and analysis of historic business activity.\n \n2. Ensure that budget allocation is done for infrastructure and resources basis Capacity forecasts.",
+        "Test of Operating Effectiveness": "1. Inspect and validate whether capacity planning was done and forecasts were created.\n\n2. Validate whether budgets were established and capacity forecasts were taken into the account for the same.\n",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-BC-05",
+        "Mapping": ""
+    }
+]
