@@ -1,0 +1,274 @@
+[
+    {
+        "CC ID": "SO-01",
+        "Control Domain": "Site Operations",
+        "Control Name": "Secured Facility",
+        "Control Description": "Physical access to restricted areas of the facility is protected by walls with non-partitioned ceilings, secured entry points, and/or manned reception desks.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the Organization-owned data center facility is protected with: Non-partitioned ceilings Secured entry points; and/or Manned reception desks. ",
+        "Test of Operating Effectiveness": "1. Observe the Organization-owned data center facility to determine whether the facility is protected with: Non-partitioned ceilings Secured entry points; and/or Manned reception desks. ",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SO-01",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-02",
+        "Control Domain": "Site Operations",
+        "Control Name": "Physical Protection and Positioning of Cabling",
+        "Control Description": "Organization power and telecommunication lines are protected from interference, interception, and damage.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the Organization-owned data center facility has power and telecommunication lines tagged and labelled properly to  protect from interference, interception, and damage.",
+        "Test of Operating Effectiveness": "1. Inspect Organization-owned data center facility to determine whether power and telecommunication lines are tagged and labelled properly to  protect from interference, interception, and damage.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SO-02",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-03",
+        "Control Domain": "Site Operations",
+        "Control Name": "Global Coordination of Critical Functions: Information Security Safeguards",
+        "Control Description": "Organization consistently applies information security safeguards in datacenters and campuses.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that information security safeguards are in place in datacenters and campuses including but not limited to : \nAccess Machines at entry/exit\nFire extinguishers\nFire Alarms etc.",
+        "Test of Operating Effectiveness": "1 Observe whether information security safeguards are in place in datacenters and campuses including but not limited to : \nAccess Machines at entry/exit\nFire extinguishers\nFire Alarms etc.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SO-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-04",
+        "Control Domain": "Site Operations",
+        "Control Name": "Provisioning Physical Access",
+        "Control Description": "Physical access provisioning to an Organization datacenter requires management approval and documented specification of: \n\u2022 account type (e.g., standard, visitor, or vendor)\n\u2022 access privileges granted\n\u2022 intended business purpose\n\u2022 visitor identification method, if applicable\n\u2022 temporary badge issued, if applicable\n\u2022 access start date\n\u2022 access duration",
+        "Goal": "",
+        "Test of Design": "1. Ensure all physical access to organization data centers have management approval and documentation.\n\n2. Ensure physical access is granted after appropriate approvals.",
+        "Test of Operating Effectiveness": "1. Inspect the physical security system workflow to determine whether requests for physical access required management approval and required documented specification of:\n\u2022Account type (e.g., visitor, vendor, or regular).\n\u2022Access privileges granted.\n\u2022Intended business purpose.\n\u2022Visitor identification method, if applicable.\n\u2022Temporary badge issued, if applicable.\n\u2022Access start date.\n\u2022Access duration.\n\n2. Inspect physical access request documentation for a sample of new physical access requests to the Organization-owned data center and data rooms to determine whether access is approved. ",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SO-08\nE-SO-09\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-05",
+        "Control Domain": "Site Operations",
+        "Control Name": "De-provisioning Physical Access",
+        "Control Description": "Physical access that is no longer required in the event of a termination or role change is revoked. If applicable, temporary badges are returned prior to exiting facility.",
+        "Goal": "",
+        "Test of Design": "1. Design and document a process for temporary badges being returned prior to exiting the facility.\n\n2. Ensure access is revoked in case of employee termination or role change.",
+        "Test of Operating Effectiveness": "1. Inspect Physical Access Policy to determine whether it contains the requirement for temporary badges to be returned prior to exiting the facility.\n\n2. Obtain evidence to ensure no physical access is active for the terminated employees or unnecessary physical access for employees with a change in their roles and responsibilities. ",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SO-08\nE-SO-10\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-06",
+        "Control Domain": "Site Operations",
+        "Control Name": "Periodic Review of Physical Access",
+        "Control Description": "Organization performs physical account and access reviews on a quarterly basis; corrective action is taken where applicable.",
+        "Goal": "",
+        "Test of Design": "1. Design and document a process for physical access review and frequency.\n\n2. Ensure access review is performed as per defined frequency and necessary action is taken, if required..",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Physical Access Policy to determine whether requirements for physical access review are defined.\n\n2. Inspect quarterly physical access review documentation for a sample of quarters and a sample of Organization-owned data rooms to determine whether the access review is completed, and corrective actions is documented and resolved for any access that should be revoked.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SO-08\nE-SO-11\nE-SO-12",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-07",
+        "Control Domain": "Site Operations",
+        "Control Name": "Physical Access Role Permission Authorization",
+        "Control Description": "Initial permission definitions, and changes to permissions, associated with physical access roles are approved by authorized personnel.",
+        "Goal": "",
+        "Test of Design": "1. Ensure all physical access to organization data centers have management approval and documentation.\n\n2. Ensure physical access is granted after appropriate approvals.",
+        "Test of Operating Effectiveness": "1 Inspect the physical security system workflow to determine whether requests for physical access require approval.\n\n2 Inspect an approval of authorized personnel, for any initial permission  or modifications of permissions, ensure they are associated to physical access roles.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SO-08\nE-SO-09\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-08",
+        "Control Domain": "Site Operations",
+        "Control Name": "Monitoring Physical Access",
+        "Control Description": "Intrusion detection and video surveillance are installed at Organization datacenter locations; confirmed incidents are documented and tracked to resolution.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the Organization data center intrusion detection and video surveillance system are installed at Organization data center.\n\n2. Ensure that event logs are used for resolution of incidents.",
+        "Test of Operating Effectiveness": "1. Observe the Organization data center intrusion detection and video surveillance system to determine whether intrusion detection and video surveillance systems are installed at Organization data center.\n\n2. If applicable, for a sample of incident observe that event logs were used for the resolution of the incident.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SO-04\n\nE-IR-07",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-09",
+        "Control Domain": "Site Operations",
+        "Control Name": "Surveillance Feed Retention",
+        "Control Description": "Surveillance feed data is retained for 90 days.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that surveillance feed data is stored for 90 days.",
+        "Test of Operating Effectiveness": "1. Observe a sample of video footage showing the date and timestamp from the day of collection and one that is from 90 days before that.\n\n2. Observe a configuration from the camera management system that shows that it is configured to retain surveillance video data for 90 days",
+        "Theme": "Technology",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SO-05",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-10",
+        "Control Domain": "Site Operations",
+        "Control Name": "Visitor Access",
+        "Control Description": "Physical access for visitors is managed through monitoring, maintaining records, escorting, and reviewing access monthly. Visitor access records to the facilities are kept for at least a year.",
+        "Goal": "",
+        "Test of Design": "1. Design and document the requirement for visitor access, maintaining records, escorting, and reviewing access monthly.\n\n2. Ensure visitor access is approved, with an escort.\n\n3. Ensure monthly access reviews are performed.\n\n4. Ensure retention of visitor access for at least a year.",
+        "Test of Operating Effectiveness": "1. Inspect Physical Access Policy to determine whether it contains the requirement for visitor access, maintaining records, escorting. and reviewing access monthly.\n\n2. Obtain and validate evidence that visitor access is approved, with an escort.\n\n3. Obtain and validate evidence of monthly access reviews.\n\n4. Obtain and validate evidence of retention of visitor access for at least a year.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SO-08       \nE-SO-13\nE-SO-14",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-11",
+        "Control Domain": "Site Operations",
+        "Control Name": "Physical Access Devices",
+        "Control Description": "Physical access devices (i.e., keys, combinations, access cards, etc.) are maintained through an inventory and restricted to authorized individuals. Appropriate devices are rotated when compromised or upon employee termination or transfer.",
+        "Goal": "",
+        "Test of Design": "1. Ensure inventory of physical access devices is maintained.\n\n2. Ensure access to inventory is limited to authorized personnel.\n\n3. Ensure rotation of physical access devices when compromised, or employee termination or transfer.",
+        "Test of Operating Effectiveness": "1 Inspect the list of physical access devices.\n\n2 Inspect the list of individuals who has an access to physical devices.\n\n3 Inspect whether physical access devices were rotated when compromised or upon employee termination or transfer.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SO-15\nE-SO-16\nE-SO-17",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-12",
+        "Control Domain": "Site Operations",
+        "Control Name": "Temperature and Humidity Control",
+        "Control Description": "Temperature and humidity levels of datacenter environments are monitored and maintained at appropriate levels.",
+        "Goal": "",
+        "Test of Design": "1. Ensure temperature and humidity monitoring system configurations at organization-owned data center are set to determine whether temperature and humidity levels are being monitored and configured to alert appropriate personnel when temperature or humidity levels exceed set limits. \n\n2.Ensure that temperature and humidity alarms are generated over the threshold.",
+        "Test of Operating Effectiveness": "1. Inspect the temperature and humidity monitoring system and configurations at organization-owned data center to determine whether temperature and humidity levels are being monitored and configured to alert appropriate personnel when temperature or humidity levels exceed set limits. \n\n2.Inspect the temperature and humidity alarms generated over the threshold to determine if any alarms were triggered.",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SO-18\nE-SO-19\nE-SO-20",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-13",
+        "Control Domain": "Site Operations",
+        "Control Name": "Fire Suppression Systems",
+        "Control Description": "Emergency responders are automatically contacted when fire detection systems are activated; the design and function of fire detection and suppression systems are maintained at appropriate intervals.",
+        "Goal": "",
+        "Test of Design": "1. Ensure fire detection systems are in place and emergency responders are contacted, if required.\n\n2. Ensure detection and suppression systems are tested at regular intervals.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Physical Security Policy, Alarm Management and System Maintenance Standard to determine whether requirements for fire detection/suppression systems are defined.\n\n2. Observe the fire detection/suppression systems in use at the Organization-owned data center to determine whether they are in place.\n\n3. Inspect the fire detection system monitoring contract in place to determine whether Organization has contracted with a third party to monitor fire detection systems for the Organization-owned data center.\n\n4. Inspect fire suppression/detection certifications at the Organization owned data center to determine whether the design and function of these systems are tested at appropriate intervals.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SO-08\n\nE-SO-06\n\nE-SO-21",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-14",
+        "Control Domain": "Site Operations",
+        "Control Name": "Power Failure Protection",
+        "Control Description": "Organization employs uninterruptible power supplies (UPS) and generators to support critical systems in the event of a power disruption or failure. The design and function of relevant equipment is certified at appropriate intervals.",
+        "Goal": "",
+        "Test of Design": "1. Ensure UPS and generators are employed to support critical systems in the event of a power disruption or failure.\n\n2. Ensure that UPS and generator are certified at appropriate intervals.",
+        "Test of Operating Effectiveness": "1. Observe the UPS and generators at a sample of Organization-owned data center and data rooms to determine whether they are employed to support critical systems in the event of a power disruption or failure.\n\n2. Inspect UPS and generator certifications for in-scope Organization owned-data center and data rooms to determine whether the equipment is certified at appropriate intervals.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SO-08\n\nE-SO-07\n\nE-SO-22",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-15",
+        "Control Domain": "Site Operations",
+        "Control Name": "Emergency Shutoff",
+        "Control Description": "Organization employs emergency power shut-off capabilities. Access to shut off power is restricted to authorized individuals.",
+        "Goal": "",
+        "Test of Design": "1. Ensure process is documented for emergency power shut-off.\n\n2. Ensure access to shut-off power is limited to authorized personnel.",
+        "Test of Operating Effectiveness": "1 Inspect documentation related to emergency power shut-off capabilities.\n\n2 Obtain and validate a list of authorized personnel who have access to shut off power.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SO-08\nE-SO-23",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SO-16",
+        "Control Domain": "Site Operations",
+        "Control Name": "Emergency Lighting",
+        "Control Description": "Organization employs emergency lighting in the event of a power disruption or failure. The design and function of relevant equipment is certified at appropriate intervals.",
+        "Goal": "",
+        "Test of Design": "1. Ensure emergency lighting equipment's are tested at regular intervals.",
+        "Test of Operating Effectiveness": "1 Inspect certification of relevant equipment which may be used during emergency lighting in the event of a power disruption or failure.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Physical and Environmental Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SO-24",
+        "Mapping": ""
+    }
+]

@@ -1,0 +1,546 @@
+[
+    {
+        "CC ID": "SM-01",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Audit Logging",
+        "Control Description": "Organization logs critical information system activity.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the Organization's Logging Standard includes logging requirements for critical system activity.\n\n2. Ensure that the following system logging configurations (at the least, but not limited to) for a selection of production systems to determine the following:\n\na. Log aggregation tool is configured for the service.\n\nb. Whether the below logs are being sent to the log aggregation tool:\n\ni. System OS logs\n\nii. AWS Config (configuration monitoring resource in AWS)\n\niii. Cloud Trail (All account level activity including API calls, IAM role/user)\n\niv. VPC Flow Logs (Showing all network connections to and from a VPC)\n\nv. Guard Duty (AWS provided threat detection service)\n\nc. PCI Specific - Whether critical information system activity is logged such as the following:\n\ni. Access to all audit trails (Covered through CloudTrail)\n\nii. Invalid logical access attempts.\n\niii. Use of and changes to identification and authentication mechanisms, including: All elevation of privileges. All changes, additions, or deletions to any account with root or administrative privileges. \n\niv. Initialization of audit logs\n\nv. Stopping or pausing of audit logs\n\nvi. Creation and deletion of system level objects\n\nvii. Alerts are in place to be triggered when the aforementioned logs are not forwarded/face an error in being sent by the log aggregation tool.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Logging Standard to determine whether logging requirements are defined for critical system activity.\n\n2. Inspect system logging configurations for a sample of production systems to determine the following:\n\na. Log aggregation tool is configured for the service.\n\nb. Whether the below logs are being sent to the log aggregation tool:\n\ni. System OS logs\n\nii. AWS Config (configuration monitoring resource in AWS)\n\niii. Cloud Trail (All account level activity including API calls, IAM role/user)\n\niv. VPC Flow Logs (Showing all network connections to and from a VPC)\n\nv. Guard Duty (AWS provided threat detection service)\n\nc. PCI Specific - Whether critical information system activity is logged such as the following:\n\ni. Access to all audit trails (Covered through CloudTrail)\n\nii. Invalid logical access attempts.\n\niii. Use of and changes to identification and authentication mechanisms, including: All elevation of privileges. All changes, additions, or deletions to any account with root or administrative privileges. \n\niv. Initialization of audit logs\n\nv. Stopping or pausing of audit logs\n\nvi. Creation and deletion of system level objects\n\nvii. Alerts are in place to be triggered when the aforementioned logs are not forwarded/face an error in being sent by the log aggregation tool.",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SM-01\n\nE-SM-02\n\nE-SM-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-02",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Secure Audit Logging",
+        "Control Description": "Organization logs critical information system activity to a secure repository. Organization disables administrators ability to delete or modify enterprise audit logs; the number of administrators with access to audit logs is limited.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Organization's Logging Standard includes logging requirements for critical system activity to mandate log forwarding and storage in a central repository.\n\n2. Establish a process for periodic review of appropriate access of the administrators to SIEM tool.\n\n3.Ensure that only a defined list of users are allowed to delete/modified SIEM logs.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Logging Standard to determine whether logging requirements are defined for critical system activity to mandate log forwarding and storage in a central repository.\n\n2. Inspect the list of SIEM tool Administrators and validate that their access is appropriate.\n\n3. Validate the list of users allowed to delete/modified SIEM tool logs and ensure it is restricted.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-01\n\nE-SM-04",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-03",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Audit Logging: Cardholder Data Environment Activity",
+        "Control Description": "Organization logs the following activity for cardholder data environments:\n\u2022 individual user access to cardholder data\n\u2022 administrative actions\n\u2022 access to logging servers\n\u2022 failed logins\n\u2022 modifications to authentication mechanisms and user privileges\n\u2022 initialization, stopping, or pausing of the audit logs\n\u2022 creation and deletion of system-level objects\n\u2022 security events\n\u2022 logs of all system components that store, process, transmit, or could impact the security of cardholder data (CHD) and/or sensitive authentication data (SAD)\n\u2022 logs of all critical system components\n\u2022 logs of all servers and system components that perform security functions (e.g., firewalls, intrusion-detection systems/intrusion-prevention systems (IDS/IPS), authentication servers, e-commerce redirection servers, etc.)",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the following activity types are being logged in SIEM tool:\n\na. individual user access to cardholder data\n\nb. administrative actions\n\nc. access to logging servers\n\nd. failed logins\n\ne. modifications to authentication mechanisms and user privileges\n\nf. initialization, stopping, or pausing of the audit logs\n\ng. creation and deletion of system-level objects\n\nh. security events\n\ni. logs of all system components that store, process, transmit, or could impact the security of cardholder data (CHD) and/or sensitive authentication data (SAD)\n\nj. logs of all critical system components\n\nk. logs of all servers and system components that perform security functions (e.g., firewalls, intrusion-detection systems/intrusion-prevention systems (IDS/IPS), authentication servers, e-commerce redirection servers, etc.)\n",
+        "Test of Operating Effectiveness": "1. Inspect SIEM Logs for a sample of in-scope production servers to validate that the below activity types are being logged:\n\na. individual user access to cardholder data\n\nb. administrative actions\n\nc. access to logging servers\n\nd. failed logins\n\ne. modifications to authentication mechanisms and user privileges\n\nf. initialization, stopping, or pausing of the audit logs\n\ng. creation and deletion of system-level objects\n\nh. security events\n\ni. logs of all system components that store, process, transmit, or could impact the security of cardholder data (CHD) and/or sensitive authentication data (SAD)\n\nj. logs of all critical system components\n\nk. logs of all servers and system components that perform security functions (e.g., firewalls, intrusion-detection systems/intrusion-prevention systems (IDS/IPS), authentication servers, e-commerce redirection servers, etc.)",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SM-01\n\nE-SM-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-04",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Audit Logging: Cardholder Data Environment Event Information",
+        "Control Description": "Organization records the following information for confirmed events in the cardholder data environment:\n\u2022 user identification\n\u2022 type of event\n\u2022 date and time\n\u2022 event success or failure indication\n\u2022 origination of the event\n\u2022 identification of affected data, system component, or resource",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the below information is being logged for all critical security events:\n\na. user identification\n\nb. type of event\n\nc. date and time\n\nd. event success or failure indication\n\ne. origination of the event\n\nf. identification of affected data, system component, or resource",
+        "Test of Operating Effectiveness": "1. Inspect SIEM Logs for a sample of in-scope production servers to validate that the below information is being logged for all critical security events:\n\na. user identification\n\nb. type of event\n\nc. date and time\n\nd. event success or failure indication\n\ne. origination of the event\n\nf. identification of affected data, system component, or resource",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SM-01\n\nE-SM-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-05",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Audit Logging: Service Provider Logging Requirements",
+        "Control Description": "Organization establishes unique logging and audit trails for each entity's cardholder data environment and complies with the following:\n\u2022 logs are enabled for third-party applications\n\u2022 logs are active by default\n\u2022 logs are available for review by and communicated to the owning entity",
+        "Goal": "",
+        "Test of Design": "1. Establish a process that ensures that Organization's audit trails/audit logs:\n\u2022 each and every third-party application for every entity.\n\u2022 logs are active by default\n\n2. Establish a process in the Organization's logging and monitoring mechanism which ensures that logs are reviewed periodically and on a need-to-do basis. Additionally, the same shall be communicated to the concerned stakeholders.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's audit trails/audit logs for:\n\u2022 each and every third-party application for every entity.\n\u2022 logs are active by default\n\n2. Inspect Organization's logging and monitoring mechanism to ensure that logs are reviewed periodically and on a need-to-do basis. Additionally, validate whether the same is being communicated to the concerned stakeholders.",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-01\n\nE-SM-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-06",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Configuration Management: Remote Logging",
+        "Control Description": "Where applicable, devices are configured to send audit log data to a remote server",
+        "Goal": "",
+        "Test of Design": "1. Establish a data flow mechanism to ensure that the devices are configured to send audit log data to a remote server.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's data flow mechanisms to ensure that the devices are configured to send audit log data to a remote server.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-NO-17\n\nE-SM-01\n\nE-SM-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-07",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Chain of Accountability",
+        "Control Description": "Organization implements audit trails to link authentication events to individuals users in production systems.",
+        "Goal": "",
+        "Test of Design": "1. Establish organization's logging and monitoring process.\n\n2. Ensure logs contain identifiers to establish audit trails to systems and users.",
+        "Test of Operating Effectiveness": "1. Validate the organizations logging and monitoring process.\n\n2. Validate whether the logs contain identifiers to establish audit trails to systems and users.",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-01\n\nE-SM-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-08",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Audit Record Time Stamps",
+        "Control Description": "Organization records time stamps for audit records that can be mapped to a centralized time source.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the time sync is enabled, stratums are defined, and the time servers are working.",
+        "Test of Operating Effectiveness": "1. Validate whether time sync is enabled, stratums are defined, and the time servers are working.\n2. For a sample of audit records, review time stamps to determine whether time stamps for audit records can be mapped to a centralized time source.",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SM-05",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-09",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Log Reconciliation: CMDB",
+        "Control Description": "Organization reconciles the established device inventory against the enterprise log repository on a quarterly basis; devices which do not forward log data are remediated.",
+        "Goal": "",
+        "Test of Design": "1. Design a process to prepare a quarterly Log reconciliation report which includes reconciliation of the established device inventory against the enterprise log repository.\n\n2. Wherever deviation is identified from the reconciliation, ensure that the actions are taken for remediation of the devices which do not forward log data.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Log reconciliation report to determine that the established device inventory against the enterprise log repository is reconciled on a quarterly basis.\n\n2. Inspect the actions taken for remediation of the devices which do not forward log data.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Infrastructure Management Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-SM-06\n\nE-SM-07",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-10",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Audit Log Capacity and Retention",
+        "Control Description": "Organization allocates audit record storage capacity in accordance with logging storage and retention requirements; Audit logs are retained for 1 year with 90 days of data immediately available for analysis.",
+        "Goal": "",
+        "Test of Design": "1. Document Organization's Logging Standard which includes logging retention requirements for critical system activity to mandate logs be available for a minimum for 1 year.\n\n2. Implement SIEM tool configuration to retrieve the relevant logs for a minimum period of 1 year with 90 days of logs be available for immediate analysis.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Logging Standard to determine whether logging retention requirements are defined for critical system activity to mandate logs being available for a minimum for 1 year\n\n2. Inspect sample logs for in-scope services to validate that the SIEM tool stores relevant logs for a minimum period of 1 year with 90 days of logs being available for immediate analysis.\n\n3. Evaluate the SIEM tool configuration to validate the retention settings for 1 year.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SM-01\n\nE-SM-02\n\nE-SM-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-11",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Enterprise Antivirus Logging",
+        "Control Description": "If applicable, Organization's managed enterprise antivirus deployments generate audit logs which are retained for 1 year with 90 days of data immediately available for analysis.",
+        "Goal": "",
+        "Test of Design": "1. Enable configurations for Enterprise Antivirus solutions to ensure that antivirus logs are being forwarded to the SIEM\n\n2. Ensure that relevant logs are stored for a minimum period of 1 year with 90 days of logs being available for immediate analysis.",
+        "Test of Operating Effectiveness": "1. Inspect configurations for Enterprise Antivirus solutions to validate that antivirus logs are being forwarded to SIEM.\n\n2. Inspect sample antivirus logs for in-scope services to validate that relevant logs are stored for a minimum period of 1 year with 90 days of logs being available for immediate analysis.",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SM-08\n\nE-SM-09",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-12",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Security Monitoring Alert Criteria",
+        "Control Description": "Organization defines security monitoring alert criteria, how alert criteria will be flagged, and identifies authorized personnel for flagged system alerts.",
+        "Goal": "",
+        "Test of Design": "1. Document Organization's Security Monitoring Standard to include requirements for security monitoring alert criteria.\n\n2. Establish a process to periodically review and maintain a list of security monitoring rules.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Security Monitoring Standard to determine whether requirements for security monitoring alert criteria are defined.\n\n2. Obtain list of security monitoring rules that are defined.\n\n3. For a sample of alert rules from a sample of services, inspect the monitoring tool configuration to determine that rules are implemented to flag events, and notify authorized personnel.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-SM-10\n\nE-SM-11\n\nE-SM-12",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-13",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Security Monitoring Alert Criteria Review",
+        "Control Description": "Organization reviews security monitoring alert on an annual basis.",
+        "Goal": "",
+        "Test of Design": "1. Document Organization's Security Monitoring Standard to include requirements for security monitoring alert criteria.\n\n2. Establish a process to ensure that the monitoring tool is configured to review the security alerts on an annual basis by the authorized personnel. ",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Security Monitoring Standard to determine whether requirements for security monitoring alert criteria are defined.\n\n2. For a sample of alert rules from a sample of services, inspect the monitoring tool configuration to determine that security alerts are reviewed on an annual basis by the authorized personnel. ",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-SM-10\n\nE-SM-11\n\nE-SM-12",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-14",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Log-tampering Detection",
+        "Control Description": "Organization monitors and flags tampering to the audit logging and monitoring tools in the production environment.",
+        "Goal": "",
+        "Test of Design": "1. Ensure Organization's Security Monitoring Standard to include requirements for monitoring and flagging, tampering to the audit logging and monitoring tools in the production environment.\n\n2. Ensure specific mechanisms to monitor and flag tampering to the audit logging and monitoring tools in the production environment are defined and documented.\n\n3. Ensure appropriate mechanisms are implemented for protecting integrity of logs and to prevent/detect logs from being modified/tampered at the storage location. Additionally, ensure such activities are recorded and controlled.\n\n4. Restrict and control administrative permissions to manage and modify audit logs to authorized personnel only.\n\n5. Ensure all administrative and operational activities are logged and events are captured to trace back to a particular user in case of any modifications/tampering performed.\n\n6. Replicate and store all applicable logs on a centralized server and restrict access to only authorized personnel.",
+        "Test of Operating Effectiveness": "1. Obtain relevant organizational policy/standard and ensure defined process regarding enabling audit logging and monitoring are adhered to.\n\n2. Validate specific mechanisms to monitor and flag tampering to the audit logging and monitoring tools in the production environment are defined and documented.\n\n3. Validate whether appropriate mechanisms are implemented to protect the integrity of logs and to prevent/detect logs from being modified/tampered at the storage location. Additionally, ensure such activities are recorded and controlled.\n\n4. Inspect whether administrative permissions to manage and modify audit logs are restricted to authorized personnel only.\n\n5. For a sample of events, inspect whether all administrative and operational activities are logged and events are captured to trace back to a particular user in case of any modifications/tampering performed.\n\n6. Validate whether all applicable logs are replicated and stored on a centralized server and access is restricted to only authorized personnel,",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-10\n\nE-SM-11\n\nE-SM-13\n\nE-SM-04",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-15",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Unauthorized Devices Addition",
+        "Control Description": "Unauthorized devices connected to the Organization Network are:\n\u2022 detected within a maximum of five minutes, and\n\u2022 the unauthorized device is disabled, or a notification is sent to authorized Organization personnel",
+        "Goal": "",
+        "Test of Design": "1. Enable Organization's monitoring tool configurations to ensure that unauthorized devices are:\n\u2022 detected within a maximum of five minutes, and\n\u2022 the unauthorized device is disabled, or a notification is sent to authorized Organization personnel",
+        "Test of Operating Effectiveness": "1. Inspect Organization's monitoring tool configurations to ensure that the following:\n\u2022 detected within a maximum of five minutes, and\n\u2022 the unauthorized device is disabled, or a notification is sent to authorized Organization personnel",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-14",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-16",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Security Monitoring Alert Criteria: Guest, Anonymous and Temp Accounts",
+        "Control Description": "Organization defines security monitoring alert criteria for the use of guest, anonymous, and temporary accounts on Organization's network.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Organization's Security Monitoring Standard includes requirements for security monitoring alert criteria for the use of guest, anonymous, and temporary accounts on Organization's network.\n\n2. Ensure that the security monitoring rules are defined, enabled and alert applicable personnel on the use of guest, anonymous, and temporary accounts on Organization's network.\n\n3. Ensure that alerts are being generated and sent to the SOC team to support remediation.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Security Monitoring Standard to determine whether requirements for security monitoring alert criteria for the use of guest, anonymous, and temporary accounts on Organization's network are defined.\n\n2. Inspect a sample of security monitoring rules, to validate that the rules are defined to look for and alert applicable personnel on the use of guest, anonymous, and temporary accounts on Organization's network.\n\n3. Validate that alerts being generated are sent to the SOC team to support remediation.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-10",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-17",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Security Monitoring Alert Criteria: VoIP Usage",
+        "Control Description": "Organization defines security monitoring alert criteria to detect deviations from Voice over IP (VoIP) activity standards.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Organization's Security Monitoring Standard includes requirements for security monitoring alert criteria to detect deviations from Voice over IP (VoIP) activity standards are defined.\n\n2. Ensure that the security monitoring rules are defined, enabled and alert applicable personnel on deviations from Voice over IP (VoIP) activity standards.\n\n3. Ensure that alerts are being generated and sent to the SOC team to support remediation.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Security Monitoring Standard to determine requirements for security monitoring alert criteria to detect deviations from Voice over IP (VoIP) activity standards are defined.\n\n2. Inspect a sample of security monitoring rules, to validate that the rules are defined to look for and alert applicable personnel on deviations from Voice over IP (VoIP) activity standards.\n\n3. Validate that alerts being generated are sent to the SOC team to support remediation.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-10",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-18",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Prohibited Activity Monitoring: Remote Access",
+        "Control Description": "Remote sessions are monitored for prohibited activity.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the monitoring reports or evidence of logs from remote sessions are reviewed for prohibited activity.",
+        "Test of Operating Effectiveness": "1. Review the monitoring reports or evidence of logs from remote sessions to determine that the remote sessions are reviewed for prohibited activity.",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-15\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-19",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Prohibited Activity Monitoring: Client Run Time Technologies",
+        "Control Description": "Organization monitors and flags the use of prohibited client run time technologies on information systems.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the monitoring software are installed on information systems.\n\n2. Enable the alerting criteria to ensure it monitors prohibited execution.",
+        "Test of Operating Effectiveness": "1. Validate and inspect if monitoring software are installed on information systems.\n\n2. Inspect the alerting criteria to ensure it monitors prohibited execution.",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-16\n\nE-SM-17",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-20",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Security Monitoring Alert Criteria: Wireless Access Point",
+        "Control Description": "Organization defines security monitoring alert criteria for attack attempts against wireless access points.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Organization's Security Monitoring Standard includes requirements for security monitoring alert criteria for attack attempts against wireless access points.\n\n2. Ensure that the security monitoring rules are defined, enabled and alert applicable personnel on potential failed login attempts.\n\n3. Ensure that alerts are being generated and sent to the SOC team to support remediation.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Security Monitoring Standard to determine whether requirements for security monitoring alert criteria for attack attempts against wireless access points are defined.\n\n2. Obtain list of security monitoring rules that are defined.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Quarterly",
+        "Evidence Artifacts": "E-SM-10\n\nE-SM-11",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-21",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Security Monitoring Alert Criteria: Failed Logins",
+        "Control Description": "Organization defines security monitoring alert criteria for failed login attempts on Organization's network.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Organization's Security Monitoring Standard includes requirements for security monitoring alert criteria for failed login attempts on Organization's network.\n\n2. Ensure a sample of security monitoring rules, to validate that the rules are defined to look for and alert applicable personnel on potential failed login attempts.\n\n3. Ensure that alerts being generated are sent to the SOC team to support remediation.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Security Monitoring Standard to determine whether requirements for security monitoring alert criteria for failed login attempts on Organization's network.\n\n2. Inspect a sample of security monitoring rules, to validate that the rules are defined to look for and alert applicable personnel on potential failed login attempts.\n\n3. Validate that alerts being generated are sent to the SOC team to support remediation.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-18\n\nE-SM-19",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-22",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Security Monitoring Alert Criteria: Privileged Functions",
+        "Control Description": "Organization defines security monitoring alert criteria for privileged functions executed by both authorized and unauthorized users.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Organization's Security Monitoring Standard includes requirements for security monitoring alert criteria for privileged functions executed by both authorized and unauthorized users.\n\n2. Ensure that the security monitoring rules are defined, enabled and alert applicable personnel on privileged functions executed by both authorized and unauthorized users.\n\n3. Ensure that alerts are being generated and sent to the SOC team to support remediation.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Security Monitoring Standard to determine whether requirements for privileged functions executed by both authorized and unauthorized users.\n\n2. Inspect a sample of security monitoring rules, to validate that the rules are defined to look for and alert applicable personnel on privileged functions executed by both authorized and unauthorized users.\n\n3. Validate that alerts being generated are sent to the SOC team to support remediation.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-18\n\nE-SM-19",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-23",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Security Monitoring Alert Criteria: Audit Log Integrity",
+        "Control Description": "Organization defines security monitoring alert criteria for changes to the integrity of audit logs.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Organization's Security Monitoring Standard includes requirements for security monitoring alert criteria for changes to the integrity of audit logs.\n\n2. Ensure that the security monitoring rules are defined, enabled and alert applicable personnel on changes to the integrity of audit logs.\n\n3. Ensure that alerts are being generated and sent to the SOC team to support remediation.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Security Monitoring Standard to determine whether requirements for changes to the integrity of audit logs.\n\n2. Inspect a sample of security monitoring rules, to validate that the rules are defined to look for and alert applicable personnel on changes to the integrity of audit logs.\n\n3. Validate that alerts being generated are sent to the SOC team to support remediation.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-18\n\nE-SM-19",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-24",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Security Monitoring Alert Criteria: Cardholder System Components",
+        "Control Description": "Organization defines security monitoring alert criteria for system components that store, process, transmit, or could impact the security of cardholder data and/or sensitive authentication data.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Organization's Security Monitoring Standard includes requirements for security monitoring alert criteria for system components that store, process, transmit, or could impact the security of cardholder data and/or sensitive authentication data.\n\n2. Ensure that the security monitoring rules are defined, enabled, and alert applicable personnel on checks for any impact to the CDE.\n\n3. Ensure that alerts are being generated and sent to the SOC team to support remediation.",
+        "Test of Operating Effectiveness": "1. Inspect whether the security logs from various sources are sent to the monitoring tool.\n\n2. Inspect a sample of security monitoring rules, to validate that the rules are defined to look for and alert applicable personnel on checks for any impact to the CDE.\n\n3. Validate that alerts being generated are sent to the SOC team to support remediation.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-SM-18\n\nE-SM-19",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-25",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "System Security Monitoring",
+        "Control Description": "Critical systems are monitored in accordance with predefined security criteria and alerts are sent to authorized personnel. Confirmed incidents are tracked to resolution.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Organization's Security Monitoring Standard includes requirements for responding to flagged system alerts and confirmed incidents.\n\n2. Configure security monitoring tool to ensure that critical information system activity is monitored.\n\n3. Ensure that the events are triaged and resolved by authorized personnel as applicable.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Security Monitoring Standard to determine whether requirements are defined for responding to flagged system alerts and confirmed incidents.\n\n2. For a sample of services, inspect security monitoring tool to determine whether critical information system activity is monitored.\n\n3. Inspect a sample of security events to determine whether the events are triaged and resolved by authorized personnel as applicable.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SM-10\n\nE-SM-19",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-26",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Intrusion Detection Systems",
+        "Control Description": "Organization has an Intrusion Detection System (IDS) or Intrusion Prevention System (IPS) deployment(s) and ensures the following:\n\u2022 signature definitions are updated including the removal of false positive signatures\n\u2022 non-signature based attacks are defined\n\u2022 IDS/IPS are configured to capture malicious (both signature and non-signature based) traffic\n\u2022 alerts are reviewed and resolved by authorized personnel when malicious traffic is detected",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the Organization has a policy or standard that covers the use and management of intrusion detection system (IDS) or intrusion prevention system (IPS) tools on its in-scope systems.\n\n2. Ensure that there is an intrusion detection system (IDS) or intrusion prevention system (IPS) deployed on all in-scope systems.\n\n3. Ensure that IDS/IPS tool is configured in a manner that:\n\u2022 signature definitions are updated including the removal of false positive signatures\n\u2022 non-signature based attacks are defined\n\u2022 IDS/IPS are configured to capture malicious (both signature and non-signature based) traffic\n\u2022 alerts are reviewed and resolved by authorized personnel when malicious traffic is detected\n\n4. Ensure that the ability to disable IDS/IPS tools are restricted to limited personnel, and can only be disabled with a proper justification and for a limited time.",
+        "Test of Operating Effectiveness": "1. Inspect the Organization has a policy or standard that details the use and management of intrusion detection system (IDS) or intrusion prevention system (IPS) tools on its in-scope systems.\n\n2. Obtain a list of all in-scope systems, and for a given sample, confirm that IDS/IPS is running on those systems, and that they are up to date.\n\n3. Inspect the IDS/IPS rulesets and ensure that they are configured with the items below:\n\u2022 signature definitions are updated including the removal of false positive signatures\n\u2022 non-signature based attacks are defined\n\u2022 IDS/IPS are configured to capture malicious (both signature and non-signature based) traffic\n\u2022 alerts are reviewed and resolved by authorized personnel when malicious traffic is detected\n\n4. For a sample of alerts, confirm that they were reviewed and resolved by the authorized personnel.\n\n5. Observe configuration showing that IDS/IPS tools cannot be disabled except by authorized personnel and can only be disabled with a proper justification and for a limited time.",
+        "Theme": "Technology",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Information Systems Operations Policy"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-18\n\nE-SM-19",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-27",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "System Monitoring Legal Opinion",
+        "Control Description": "Organization obtains legal opinion with regard to monitoring activities in accordance with applicable requirements and mandates.",
+        "Goal": "",
+        "Test of Design": "1. Design a legal process to ensure that only approved monitoring criteria is established as per applicable legal, contractual, and government requirements.\n\n2. Ensure any change in monitoring criteria takes legal sign off into consideration.",
+        "Test of Operating Effectiveness": "1. Inspect organization's legal process to ensure approved monitoring criteria is established as per applicable legal, contractual, and government requirements.\n\n2. Validate whether any change in monitoring criteria takes legal sign off into consideration.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SM-20",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-28",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Privileged Session Monitoring",
+        "Control Description": "Organization monitors trusted data environments for unauthorized logical access connections. ",
+        "Goal": "",
+        "Test of Design": "1. Ensure that Organization's Security Monitoring standard includes the requirements for session monitoring.\n\n2. Configure monitoring tool to ensure least privileged principle is followed. \n\n3. Ensure that the organization monitors trusted data environments for unauthorized logical access connections.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Security Monitoring standard to determine whether the requirements for session monitoring are defined.\n\n2. Inspect configurations of monitoring tool to ensure least privileged principle is followed. \n\n3. Inspect evidence of the Organization monitoring trusted data environments for unauthorized logical access connections.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Continuously",
+        "Evidence Artifacts": "E-SM-10\n\nE-SM-14\n\nE-SM-21",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-29",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Availability Monitoring Alert Criteria",
+        "Control Description": "Organization defines availability monitoring alert criteria, how alert criteria will be flagged, and identifies authorized personnel for flagged system alerts.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a documented Availability Monitoring Standard is present including requirements defined for responding to alerts and confirmed incidents.\n\n2. Establish a process to ensure that the availability monitoring rules are defined and implemented to flag events, and notify authorized personnel.\n\n3. Ensure that the system configurations of monitoring tools include Availability Monitoring Alert Criteria.",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Availability Monitoring Standard to determine whether requirements for availability monitoring alert criteria are defined.\n\n2. Inspect availability monitoring tool to determine whether availability monitoring rules are defined and implemented to flag events, and notify authorized personnel.\n\n3. Inspect system configurations of monitoring tools for a sample of services to determine whether Availability Monitoring Alert Criteria are configured for monitoring and alerting purposes on in-scope systems.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-SM-22\n\nE-SM-23\n\nE-SM-24",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-30",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Availability Monitoring Alert Criteria Review",
+        "Control Description": "Organization reviews availability monitoring alert criteria on an annual basis.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a documented Security Monitoring Standard is present including process regarding availability monitoring alert criteria.\n\n2.. Ensure that the availability monitoring alerts are reviewed on an annual basis.",
+        "Test of Operating Effectiveness": "1. Inspect Security Monitoring Standard to ensure process regarding availability monitoring alert criteria is defined.\n\n2. Inspect evidence of availability monitoring alerts to ensure it is reviewed on an annual basis.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-SM-10\n\nE-SM-25",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-31",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "System Availability Monitoring",
+        "Control Description": "Critical systems are monitored in accordance with predefined availability criteria and alerts are sent to authorized personnel.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a documented Availability Monitoring Standard is present including requirements defined for responding to alerts and confirmed incidents.\n\n2. Ensure that a process has been established which generates alerts against the availability incidents identified.\n\n3. Ensure that the alerts are resolved in a timely manner by authorized personnel.",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Availability Monitoring Standard to determine whether requirements are defined for responding to alerts and confirmed incidents.\n\n2. Inspect a sample of availability incident tickets from alerts generated to determine whether the alerts were resolved in a timely manner by authorized personnel.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Information Systems Operations Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-SM-22\n\nE-SM-26",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SM-32",
+        "Control Domain": "Systems Monitoring",
+        "Control Name": "Remote Access: Activity Log Audit",
+        "Control Description": "Logs from remote sessions are audited for prohibited activity on a weekly basis.",
+        "Goal": "",
+        "Test of Design": "1. Establish a process that ensures the logs from remote sessions be reviewed for prohibited activity on a weekly basis.",
+        "Test of Operating Effectiveness": "1. Inspect evidence of logs of remote sessions to determine that the logs are reviewed for prohibited activity on a weekly basis.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Logging & Monitoring Standard"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-SM-01\nE-SM-27\nE-SM-28",
+        "Mapping": ""
+    }
+]

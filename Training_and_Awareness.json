@@ -1,0 +1,155 @@
+[
+    {
+        "CC ID": "TA-01",
+        "Control Domain": "Training and Awareness",
+        "Control Name": "General Security Awareness Training",
+        "Control Description": "Organization personnel complete security awareness training, which includes annual updates about relevant policies and how to report security events to the authorized response team. Records of training completion are documented and retained for tracking purposes.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the requirements for completion of security awareness training are defined in the Organization\u2019s Compliance Training Policy and Security Awareness Training Standard.\n\n2. Ensure that the Organization's Security Awareness Training Material is well defined, documented, and up to date.\n\n3. Ensure that there is a record of active employees and contractors maintained and updated by the organization.\n\n4. Ensure that security awareness training is provided on a regular basis and the progress of all contractors and employees participating in the training tracked and documented..",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Compliance Training Policy and Security Awareness Training Standard to determine whether requirements for completion of security awareness training are defined.\n\n2. Inspect Organization\u2019s Security Awareness Training material to determine whether it details: Version history of the SAT to determine materials are updated during the audit period. How to report security events to the appropriate response team\n\n3. Obtain the list of active employees and contractors.\n\n4. For a sample of active employees and contractors, obtain and inspect the security awareness training completion records to determine whether training is completed annually and completion is tracked and documented.",
+        "Theme": "People",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Training & Awareness Procedure"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-TA-01\n\nE-TA-02\n\nE-TA-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TA-02",
+        "Control Domain": "Training and Awareness",
+        "Control Name": "Code of Conduct Training",
+        "Control Description": "Organization full-time and temporary employees and interns complete a code of business conduct training.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that requirements for completion of business code of conduct training are defined with the organization's Compliance Training Policy.\n\n2. Ensure that the training material for the Organization's Code of Business Conduct outlines the responsibilities of both full-time and temporary employees in adhering to the code.\n\n3. Ensure employees have completed the Code of Business Conduct training as per the policy by examining  training completion records for a group of new and existing employees.",
+        "Test of Operating Effectiveness": "1. Inspect Organization\u2019s Compliance Training Policy to determine whether requirements for completion of business code of conduct training are defined.\n\n2. Inspect Organization\u2019s Code of Business Conduct training material to determine whether it includes Organization full-time and temporary Employees\u2019 responsibilities for adhering to the business code of conduct.\n\n3. Inspect Code of Conduct training completion records for a selection of new and current employees to determine whether new hires and existing employees have completed Code of Business Conduct training in accordance with the policy.",
+        "Theme": "People",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Training & Awareness Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TA-01\n\nE-TA-02\n\nE-TA-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TA-03",
+        "Control Domain": "Training and Awareness",
+        "Control Name": "Accessibility Training",
+        "Control Description": "Organization personnel complete accessibility awareness training, which includes annual updates about relevant policies and how to report accessibility events internally. Records of training completion are documented and retained for tracking purposes.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the training material includes information about annual updates to relevant policies and instructions on how to report accessibility events internally.\n\n2. Ensure that well defined and documented records of training completion are maintained by the organization.",
+        "Test of Operating Effectiveness": "1 Inspect training material to determine whether it detailed annual updates about relevant policies and how to report accessibility events internally. \n\n2 Inspect training completion records for a sample of employees.",
+        "Theme": "People",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Training & Awareness Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TA-02\n\nE-TA-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TA-04",
+        "Control Domain": "Training and Awareness",
+        "Control Name": "Phishing Awareness",
+        "Control Description": "Organization performs periodic phishing campaigns.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the organization conducts regular phishing campaigns to help employees get better at spotting and handling real phishing threats",
+        "Test of Operating Effectiveness": "1. Verify that the organization performs periodic phishing campaigns to evaluate and improve their employees' ability to recognize and respond to real phishing threats.",
+        "Theme": "People",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Training & Awareness Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TA-04",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TA-05",
+        "Control Domain": "Training and Awareness",
+        "Control Name": "Developer Security Training",
+        "Control Description": "Organization's software engineers are required to complete training based on secure coding techniques on an annual basis.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that review of the security training material includes guidance on yearly Secure Coding Training for PCI developers and software engineers.\n\n2. Ensure that the secure coding training was provided and completed by the employees within the last 365 days.\n\n3. Make sure that engineers are registered for the Security Engineering Training program as required.",
+        "Test of Operating Effectiveness": "1. Inspect the Security Training Material to validate that the standard provides guidance on annual Secure Coding Training for PCI developers and software engineers.\n\n2. For a sample of employees obtain evidences showing secure coding training completion. Validate that the date of completion is in the last 365 days.\n\n3. Ensure that all engineers are enrolled in the Security Engineering Training program as needed.",
+        "Theme": "People",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Training & Awareness Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TA-02\n\nE-TA-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TA-06",
+        "Control Domain": "Training and Awareness",
+        "Control Name": "Payment Card Processing Security Awareness Training",
+        "Control Description": "Organization personnel that interact with cardholder data systems receive awareness training to be aware of attempted tampering or replacement of devices. Training should include the following:\n\u2022 verify the identity of third-party persons claiming to be repair or maintenance personnel, prior to granting them access to modify or troubleshoot devices.\n\u2022 do not install, replace, or return devices without verification\n\u2022 be aware of suspicious behavior around devices (e.g., attempts by unknown persons to unplug or open devices)\n\u2022 report suspicious behavior and indications of device tampering or substitution to authorized personnel (e.g., to a manager or security officer)",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the training materials to check if they cover the following topics:\n\u2022 Confirming the identity of third-party repair or maintenance personnel before giving them access to devices.\n\u2022 Not making changes or returning devices without proper verification.\n\u2022 Being alert to unusual behavior around devices, like unauthorized attempts to tamper with them.\n\u2022 Reporting any suspicious behavior or signs of device tampering to authorized personnel, such as a manager or security officer.\n",
+        "Test of Operating Effectiveness": "1 Inspect training material to determine whether it detailed:\n\u2022 verify the identity of third-party persons claiming to be repair or maintenance personnel, prior to granting them access to modify or troubleshoot devices.\n\u2022 do not install, replace, or return devices without verification\n\u2022 be aware of suspicious behavior around devices (e.g., attempts by unknown persons to unplug or open devices)\n\u2022 report suspicious behavior and indications of device tampering or substitution to authorized personnel (e.g., to a manager or security officer)\n2 Inspect training completion records for a selection of employees.",
+        "Theme": "People",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Training & Awareness Procedure"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-TA-02\n\nE-TA-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TA-07",
+        "Control Domain": "Training and Awareness",
+        "Control Name": "Role-based Security Training: HIPAA",
+        "Control Description": "Organization personnel with access to personal health information (PHI) are required to attend and complete HIPAA privacy training.",
+        "Goal": "",
+        "Test of Design": "1. Ensure access to sensitive information including (PHI) is given to limited employees (based on roles and responsibilities) and records for the same shall be maintained. \n\n2. Ensure all employee that accesses PHI shall complete mandatory training of HIPAA security and privacy.\n\n3. Training records for the same needs to be maintained for tracking purpose.",
+        "Test of Operating Effectiveness": "1. Inspect the population of Organization personnel who have access to PHI.\n\n2. Inspect completion records for a sample of employees with access to PHI, for evidence that the employees had completed HIPAA security and privacy training. ",
+        "Theme": "People",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Training & Awareness Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TA-05\n\nE-TA-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TA-08",
+        "Control Domain": "Training and Awareness",
+        "Control Name": "Role-based Security Training",
+        "Control Description": "Organization personnel with key security responsibilities complete relevant role-based training on an annual basis:\n\u2022 personnel must complete training prior to obtaining access to privileged security systems\n\u2022 personnel with contingency responsibilities must complete role-based training within 10 days of assuming the role\n\u2022 records of training completion are documented and retained for tracking purposes",
+        "Goal": "",
+        "Test of Design": "1. Ensure role-based training material contains details around key security responsibilities.\n\n2. Training records for each employee shall be maintained for future tracking.",
+        "Test of Operating Effectiveness": "1 Inspect training material to determine whether it detailed key security responsibilities relevant to role-based trainings.\n\n2 Inspect training completion records for a sample of employees.",
+        "Theme": "People",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Training & Awareness Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TA-02\n\nE-TA-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TA-09",
+        "Control Domain": "Training and Awareness",
+        "Control Name": "Security Champion Training",
+        "Control Description": "Service teams select a \"Security Champion\" to ensure security engagement responsibilities are assigned and tracked to completion; Security Champions receive training on how to execute responsibilities.",
+        "Goal": "",
+        "Test of Design": "1. Ensure there is a process by which the service teams select a \"Security Champion\" and they complete their security champions training.\n\n2. Maintain training records for the Security Champions.",
+        "Test of Operating Effectiveness": "1. Inspect documentation related to Security Champions and verify that they are defined for selected service teams. \n\n2. Inspect training completion records for a sample of Security Champions.",
+        "Theme": "People",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Training & Awareness Procedure"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TA-02\n\nE-TA-03",
+        "Mapping": ""
+    }
+]

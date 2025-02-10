@@ -1,0 +1,223 @@
+[
+    {
+        "CC ID": "TPM-01",
+        "Control Domain": "Third-Party Management",
+        "Control Name": "Third-Party Assurance Review",
+        "Control Description": "On a periodic basis, management reviews controls within third-party assurance reports to ensure that they meet organizational requirements; if control gaps are identified in the assurance reports, management takes action to address impact the disclosed gaps have on the organization.",
+        "Goal": "",
+        "Test of Design": "1. Ensure there is a documented procurement policy and information security standard which consists information that includes but not limited to third-party assurance reviews. \n\n2. Ensure a formal questionnaire is prepared, which will be used for assessing third-party risks during the onboarding process.\n \n3. Ensure there is an action plan for control gaps identified at the time of vendor security review for their third-party controls.\n ",
+        "Test of Operating Effectiveness": "1. Inspect Organization Procurement Policy and Vendor Information Security Standard to determine whether requirements for third-party assurance reviews are defined.\n\n2. Observe Organization Risk Assessment system to determine whether a questionnaire for systematically assessing third-party risks is defined.\n\n3. For a sample of vendors, inspect whether the corresponding Vendor Security Review (VSR) is completed to determine whether management has assessed the third party\u2019s controls to determine Organization requirements are met and management took action on control gaps as applicable.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Vendor Information Security Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-TPM-01\n\nE-TPM-07 \n\nE-TPM-02\n\nE-TPM-03 \n\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TPM-02",
+        "Control Domain": "Third-Party Management",
+        "Control Name": "Vendor Risk Management",
+        "Control Description": "Organization performs a risk assessment to determine the data types that can be shared with a managed service provider.",
+        "Goal": "",
+        "Test of Design": "1. Ensure there is process to conduct vendor security review and all vendors must go through the review; records for documentation and risk rating needs to be maintained. ",
+        "Test of Operating Effectiveness": "1. Validate for a sample for service providers that an assessment was conducted and a risk rating is assigned to them as part of the VSR process.\n\n2. Validate that the vendors are listed in the vendor management tool",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Vendor Information Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TPM-04",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TPM-03",
+        "Control Domain": "Third-Party Management",
+        "Control Name": "Forensic Investigations",
+        "Control Description": "Organization enables procedures to conduct a forensic investigation in the event that a hosted merchant or service provider is compromised.",
+        "Goal": "",
+        "Test of Design": "1. Ensure there is documented process for conducting a forensic investigation in the event when a hosted merchant or service provider is compromised. \n\n2. Ensure documentation for the same needs to be maintained for tracking purposes and corrective actions.",
+        "Test of Operating Effectiveness": "1. Inspect documentation to determine whether procedures to conduct a forensic investigation in the event when a hosted merchant or service provider is compromised, are defined.\n\n2. For sample investigations validate whether appropriate documentation is retained.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Vendor Information Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TPM-05\n\nE-TPM-06",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TPM-04",
+        "Control Domain": "Third-Party Management",
+        "Control Name": "Privacy Risk Assessment",
+        "Control Description": "Organization reviews the privacy practices of service providers who access, collect, process, transfer, or store personal information on Organization's behalf upon initial procurement and renewal; non-compliance is tracked through remediation.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented to review the privacy practices of service providers who access, collect, process, transfer, or store personal information on Organization's behalf.\n\n2. Ensure that the reviews are conducted at the time of initial procurement and at renewal.\n\n3. Ensure that any non-compliances are tracked to remediation.\n \n",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a process is defined and documented to review the privacy practices of service providers who access, collect, process, transfer, or store personal information on Organization's behalf.\n\n2. Validate for a sample vendor that the reviews are conducted at the time of initial procurement and at renewal.\n\n3. Validate for a sample non-compliance event that it was tracked to remediation.\n \n",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Vendor Information Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TPM-07 \n\nE-TPM-08\n\nE-TPM-09",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TPM-05",
+        "Control Domain": "Third-Party Management",
+        "Control Name": "Network Access Agreement: Vendors",
+        "Control Description": "Third-party entities which gain access to the Organization network sign a network access agreement.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that all third-party vendors sign the network access agreement before accessing the organization's network.",
+        "Test of Operating Effectiveness": "1. For a sample of vendors validate whether a signed Network Security Agreement Exists prior to onboarding.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Vendor Information Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TPM-10",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TPM-06",
+        "Control Domain": "Third-Party Management",
+        "Control Name": "Vendor Non-disclosure Agreements",
+        "Control Description": "Agency temporary workers, independent contractors, and third-party entities consent to a non-disclosure clause.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for all agency temporary workers and independent contractors to sign a non-disclosure clauses before accessing the organization's network.",
+        "Test of Operating Effectiveness": "1. Obtain listings of agency temporary workers and independent contractors from the Contingent Workforce team\n\n2. For a sample of agency temporary workers, independent contractors, inspect Agreement to determine that non-disclosure clause is acknowledged.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Vendor Information Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TPM-11",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TPM-07",
+        "Control Domain": "Third-Party Management",
+        "Control Name": "Cardholder Data Security Agreement",
+        "Control Description": "Organization managed service providers that manage, store, or transmit cardholder data on behalf of the customer must provide written acknowledgement to customers of their responsibility to protect cardholder data and the cardholder data environment.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for all the managed service providers that manage, store, or transmit cardholder data on behalf of the customer to provide a written acknowledgement to customers of their responsibility to protect cardholder data and the cardholder data environment.",
+        "Test of Operating Effectiveness": "1. Validate for a sample Managed Service Provider that they have provided acknowledgement to customers of their responsibility to protect cardholder data and the cardholder data environment.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Vendor Information Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TPM-12",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TPM-08",
+        "Control Domain": "Third-Party Management",
+        "Control Name": "HIPAA Business Associate Agreement",
+        "Control Description": "Organization Business Associate Agreements must contain provisions for the following:\n\u2022 permitted uses and disclosures of Protected Health Information (PHI)\n\u2022 PHI safeguards to prevent unauthorized use or disclosure\n\u2022 communications regarding the unauthorized use or disclosure of PHI\n\u2022 PHI availability\n\u2022 contract termination and disposition of PHI",
+        "Goal": "",
+        "Test of Design": "1. Ensure there is a documented business associate agreement which includes clauses but not limited to :\n\u2022 permitted uses and disclosures of Protected Health Information (PHI)\n\u2022 PHI safeguards to prevent unauthorized use or disclosure\n\u2022 communications regarding the unauthorized use or disclosure of PHI\n\u2022 PHI availability\n\u2022 contract termination and disposition of PHI\n\n2. Ensure that a process is defined for all business associates to sign and acknowledge to this agreement",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Business Associate Agreements and validate that it includes the following:\n\u2022 permitted uses and disclosures of Protected Health Information (PHI)\n\u2022 PHI safeguards to prevent unauthorized use or disclosure\n\u2022 communications regarding the unauthorized use or disclosure of PHI\n\u2022 PHI availability\n\u2022 contract termination and disposition of PHI\n\n2. For a sample business associate validate that they have signed the said agreement.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Vendor Information Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TPM-13",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TPM-09",
+        "Control Domain": "Third-Party Management",
+        "Control Name": "HIPAA Business Associate Subcontractor Agreement",
+        "Control Description": "Organization requires a Business Associate Subcontractor Agreement with Business Associates from which it receives or transmits protected health information (PHI); Business Associates under contract are required to provide assurance that they adhere to Organization's security standards, which includes the security of PHI and reporting security events that potentially expose PHI.",
+        "Goal": "",
+        "Test of Design": "1. Ensure there is a documented business associate subcontractor agreement which includes, but not limited to: security of PHI and reporting of security events that potentially exposes PHI.\n\n2. Ensure that all business associates are under this agreement and provide assurance that they adhere to Organization's security standards.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Business Associate Subcontractor Agreement document.\n\n2. Inspect an executed agreement for Organization's Business Associate, for evidence that Business Associates provide Assurance that they comply with Organization's security standards, which includes the security of PHI and reporting security events that potentially expose PHI.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Vendor Information Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TPM-14",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TPM-10",
+        "Control Domain": "Third-Party Management",
+        "Control Name": "Network Service Level Agreements (SLA)",
+        "Control Description": "Vendors providing networking services to Organization are contractually bound to provide secure and available services as documented in SLAs.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for ensuring SLA in case of network services.\n\n2. Ensure appropriate contracts are created with network service providers to ensure availability of network services.\n\n3. Ensure appropriate monitoring is enabled to identify any network downtime and SLA breaches.",
+        "Test of Operating Effectiveness": "1. Inspect and a validate that a process is defined and documented for ensuring SLA in case of network services.\n\n2. Validate for a sample vendor that contracts are created to ensure availability of network services.\n\n3.Validate monitoring configuration to confirm that it is enabled to identify any network downtime and SLA breaches.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Vendor Information Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TPM-15\nE-TPM-16",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TPM-11",
+        "Control Domain": "Third-Party Management",
+        "Control Name": "Personal Information Processing and Transfer Agreement",
+        "Control Description": "Appropriate data processing and transfer agreements are established for the collection, processing, transfer, or storage of personal information by, or on behalf of, Organization.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for establishing data processing and transfer agreements for the collection, processing, transfer, or storage of personal information by, or on behalf of, the Organization.\n\n2. Ensure these agreements are signed and retained appropriately as per organization's policy.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a process is defined and documented for establishing data processing and transfer agreements for the collection, processing, transfer, or storage of personal information by, or on behalf of, the Organization.\n\n2. Validate for a sample agreement that it is signed and retained appropriately as per organization's policy.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Vendor Information Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TPM-17",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TPM-12",
+        "Control Domain": "Third-Party Management",
+        "Control Name": "Approved Service Provider Listing",
+        "Control Description": "Organization maintains a list of approved managed service providers and the services they provide to Organization.",
+        "Goal": "",
+        "Test of Design": "1. Ensure there is a documented process for vendor onboarding and termination. \n\n2. Ensure that activities for vendor onboarding and offboarding are logged and maintained appropriately.\n\n3. Ensure that the list of active vendors is reviewed and updated periodically.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that there is a documented process for vendor onboarding and termination. \n\n2. Validate that activities for vendor onboarding and offboarding are logged and maintained appropriately.\n\n3. Validate the list of active vendors and verify that it is reviewed and updated periodically.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Vendor Information Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TPM-18",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "TPM-13",
+        "Control Domain": "Third-Party Management",
+        "Control Name": "Vendor Information Security Standard",
+        "Control Description": "Organization has documented a Vendor Information Security Standard that defines the responsibilities and governance requirements regarding vendor information security engagements. Contractual agreements are entered into with vendors who process or store Organization data that define information Security terms and service level agreements.",
+        "Goal": "",
+        "Test of Design": "1. Ensure there is documented vendor information security standard which is available on intranet for employees.\n\n2. Ensure vendor information security standard defines the responsibilities and governance requirements regarding vendor information security engagements.\n\n3. Ensure appropriate agreements are established with vendors who process or store Organization data. ",
+        "Test of Operating Effectiveness": "1. Inspect and validate that there is a documented vendor information security standard which is available on intranet for employees.\n\n2. Validate vendor information security standard defines the responsibilities and governance requirements regarding vendor information security engagements.\n\n3. For a sample vendor validate that agreements are established.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Vendor Information Security Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-TPM-07\n\nE-TPM-19",
+        "Mapping": ""
+    }
+]
