@@ -1,0 +1,121 @@
+[
+    {
+        "CC ID": "SLC-01",
+        "Control Domain": "Service Lifecycle",
+        "Control Name": "Service Lifecycle Workflow",
+        "Control Description": "Major software releases are subject to the Service Life Cycle, which requires acceptance via Concept Accept and Project Plan Commit phases prior to implementation.",
+        "Goal": "",
+        "Test of Design": "1. Ensure there is a documented standard for organization product lifecycle and secure product lifecycle which consists requirements for acceptance via concept accept and project plan commit phases prior to implementation.\n\n2. Ensure the standard for organization product lifecycle and secure product lifecycle are reviewed and updated as required. \n\n3. Implement a procedure to document the acceptance via concept accept and project plan commit phases prior to implementation for each and every major release.\n",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Product Lifecycle Standard and Secure Product Lifecycle Standard to determine whether requirements for acceptance via Concept Accept and Project Plan Commit phases prior to implementation are defined.\n\n2. Inspect documentation for a selection of major releases to determine whether it includes documentation of acceptance via Concept Accept and Project Plan Commit phases prior to implementation.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Secure Development Lifecycle Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-SLC-01\n\nE-SLC-02",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SLC-02",
+        "Control Domain": "Service Lifecycle",
+        "Control Name": "Source Code Management",
+        "Control Description": "Source code is managed with Organization-approved version control mechanisms.",
+        "Goal": "",
+        "Test of Design": "1. Ensure there is a documented organization's source code security standard and it is updated on need to know basis. \n\n2. Ensure source code repositories used by service team as per the approved version control mechanisms/systems.",
+        "Test of Operating Effectiveness": "1. Inspect Organization's Source Code Security Standard to determine whether requirements for Organization-approved version control software are in place.\n\n2. For a sample of services, inspect source code repository used by services to determine that source code is managed with Organization-approved version control mechanisms/systems.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Secure Development Lifecycle Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-SLC-03\n\nE-SLC-04",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SLC-03",
+        "Control Domain": "Service Lifecycle",
+        "Control Name": "Secrets in Code",
+        "Control Description": "Organization manages source code secrets in a centralized repository; secrets are rotated at least annually and immediately if the security of secrets is compromised. ",
+        "Goal": "",
+        "Test of Design": "1. Each service should have a central source code repository where all secrets are managed.\n\n2. Secrets of the service are rotated once every year and in cases where the securiy of secrets is compromised. Logs for the same are maintained and documented.\n",
+        "Test of Operating Effectiveness": "1. For a sample of services, inspect the Organization's centralized repository to determine that source code secrets are managed in a centralized repository.\n\n2. Obtain evidence to validate secrets are rotated at least annually and immediately if the security of secrets is compromised.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Secure Development Lifecycle Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-SLC-05\n\nE-SLC-06",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SLC-04",
+        "Control Domain": "Service Lifecycle",
+        "Control Name": "Project Budget Approval",
+        "Control Description": "Approval for project initiation and budget is obtained from IT management and business owners.\n",
+        "Goal": "",
+        "Test of Design": "1. Prepare a project management plan that includes but not limited to project initiation guidelines and budget from IT management and business owners.",
+        "Test of Operating Effectiveness": "1. Obtain evidence of approval for project initiation and budget from IT management and business owners.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Secure Development Lifecycle Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SLC-07\nE-SLC-08",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SLC-05",
+        "Control Domain": "Service Lifecycle",
+        "Control Name": "Project Scope Change",
+        "Control Description": "Changes to finalized project scope and requirements require the review and approval from the business team and project manager.\n",
+        "Goal": "",
+        "Test of Design": "1. Prepare a project management plan that outlines the project scope, and requirements.\n\n2. Project Management plan is approved by business team.",
+        "Test of Operating Effectiveness": "1. Review the changes that have been modified and finalized for project scope and requirements.\n\n2. Obtain evidence of approval from the business team and project management for finalization of project scope and requirements.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Secure Development Lifecycle Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SLC-07\nE-SLC-08",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SLC-06",
+        "Control Domain": "Service Lifecycle",
+        "Control Name": "Information System Operation Authorization",
+        "Control Description": "Senior management authorizes the operation of new information systems, based on security and business requirements, prior to implementation. The information system authorization is refreshed every 3 years or when significant change occurs.",
+        "Goal": "",
+        "Test of Design": "1. Ensure there is documented service lifecycle program which is updated on a need-to-know basis\n\n2. Ensure there is a documented information system operation authorization which is approved by the senior management and updated once in every 3 years or on a need-to-know basis.",
+        "Test of Operating Effectiveness": "1. Inspect the approval matrix for Service Lifecycle Program Management.\n\n2. Inspect the approval matrix for Information System Operation Authorization by the authorized senior management to determine the operation of new information systems\n\n3. Review the information system authorization is updated every 3 years or when significant changes occurs.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Secure Development Lifecycle Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SLC-09\n\nE-SLC-10\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SLC-07",
+        "Control Domain": "Service Lifecycle",
+        "Control Name": "System Acquisition Approval",
+        "Control Description": "Information system acquisitions require approval from authorized personnel based on verification of the following documented evidence:\n\u2022 security function, strength, and assurance requirements\n\u2022 requirements for protecting security-related documentation\n\u2022 system development and test requirements\n\u2022 acceptance criteria for releases\n\u2022 enumeration of Security controls\n\u2022 security control implementation and monitoring requirements\n\u2022 components are FIPS-201 approved",
+        "Goal": "",
+        "Test of Design": "1. Define and implement a procedure for the formal approval from an authorized personnel Information system acquisitions based on verification of the following documented evidence:\n\u2022 security function, strength, and assurance requirements\n\u2022 requirements for protecting security-related documentation\n\u2022 system development and test requirements\n\u2022 acceptance criteria for releases\n\u2022 enumeration of Security controls\n\u2022 security control implementation and monitoring requirements\n\u2022 components are FIPS-201 approved",
+        "Test of Operating Effectiveness": "1. Obtain evidence of approval from authorized personnel for Information system acquisitions based on verification of the following documented evidence:\n\u2022 security function, strength, and assurance requirements\n\u2022 requirements for protecting security-related documentation\n\u2022 system development and test requirements\n\u2022 acceptance criteria for releases\n\u2022 enumeration of Security controls\n\u2022 security control implementation and monitoring requirements\n\u2022 components are FIPS-201 approved",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Secure Development Lifecycle Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SLC-11",
+        "Mapping": ""
+    }
+]

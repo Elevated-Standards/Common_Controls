@@ -1,0 +1,70 @@
+[
+    {
+        "CC ID": "MDM-01",
+        "Control Domain": "Mobile Device Management",
+        "Control Name": "Mobile Device Enrollment",
+        "Control Description": "Mobile devices (i.e., laptops, smartphones, tablets) must be configured with the appropriate Mobile Device Management (MDM) profile when used as a medium to access Organization internal resources.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a Mobile device management process is defined and documented.\n\n2. Ensure that all mobile devices are registered and configured within the appropriate Mobile Device Management (MDM) to access the internal resources.\n",
+        "Test of Operating Effectiveness": "1. Inspect the Mobile device Policy to ensure that a Mobile Device management process is defined.\n\n2. Inspect the list of mobile devices to verify that the devices are registered within the Mobile Device Management (MDM) tool.\n\n3. For a sample of devices, validate that the devices are configured with the MDM tool and that it cannot be disabled from the end user device.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Mobile Device Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-MDM-01\nE-MDM-02\nE-MDM-03.",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "MDM-02",
+        "Control Domain": "Mobile Device Management",
+        "Control Name": "Mobile Device Encryption",
+        "Control Description": "Mobile devices (i.e., laptops, smartphones, tablets) that are used to access data from Organization internal resources are encrypted.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that mobile devices are encrypted and is configured with the Mobile Device Management (MDM) tool.",
+        "Test of Operating Effectiveness": "1. Review the Mobile Device Management (MDM) tool and ensure that a device encryption tool is enabled for all registered devices.\n\n2. Review a sample of mobile devices and verify that device encryption tools are enabled on devices and cannot be disabled by the end user.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Mobile Device Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "\nE-MDM-02\nE-MDM-04",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "MDM-03",
+        "Control Domain": "Mobile Device Management",
+        "Control Name": "Configuration Management: Mobile Devices",
+        "Control Description": "Organization Mobile devices (i.e., laptops, smartphones, tablets) are configured to ensure unnecessary hardware capabilities and functionalities are disabled, and management defined security features are enabled.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that mobile devices are configured to ensure unnecessary hardware capabilities and functionalities are disabled.\n\n2. Ensure security features defined by the management shall be enabled within the MDM tool.",
+        "Test of Operating Effectiveness": "1. Review the Mobile Device Management (MDM) tool and confirm that there is a policy implemented that restricts the use of unnecessary hardware capabilities and functionalities are disabled.\n\n2. For a sample of mobile devices, verify security features are enabled in the MDM tool.\n\n3 Review a sample of user devices and verify that the end user cannot use hardware capabilities and functionalities that have been disabled by the MDM tool per its policy and that these functionalities are not able to be re-activated by the end user.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Mobile Device Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "\nE-MDM-02\nE-MDM-05",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "MDM-04",
+        "Control Domain": "Mobile Device Management",
+        "Control Name": "Configuration Management: High Risk Travel Locations",
+        "Control Description": "Organization has a documented list of travel locations considered high risk for the use of mobile devices (i.e., laptops, smartphones, tablets). Employees procure alternate equipment before traveling to these locations.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for handling travel to high-risk locations.\n\n2. Ensure that a documented list of travel locations considered to be high risk for the use of mobile devices is maintained. \n\n3. Ensure alternate equipment is provided to employees before traveling to these locations.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a process is defined and documented for handling travel to high-risk locations.\n\n2. Validate the list of travel locations considered to be high risk for the use of mobile devices \n\n3. Validate the process for providing alternate equipment to employees before traveling to these locations.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Mobile Device Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-MDM-06\n\nE-MDM-03",
+        "Mapping": ""
+    }
+]

@@ -1,0 +1,172 @@
+[
+    {
+        "CC ID": "PR-01",
+        "Control Domain": "People Resources",
+        "Control Name": "Background Checks",
+        "Control Description": "New hires are required to pass a background check as a condition of their employment.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented to conduct background checks for new hires.\n\n2. Ensure that a background check is completed prior to the hire date for all new hires.",
+        "Test of Operating Effectiveness": "1. Inspect documentation to validate whether requirements for background checks have been defined. \n\n2 For a sample of new hires, validate that background checks defined in the policy were performed prior to their hire date.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Human Resource Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PR-01\n\nE-PR-02",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PR-02",
+        "Control Domain": "People Resources",
+        "Control Name": "Performance Management",
+        "Control Description": "Organization has established a check-in performance management process for on-going dialogue between managers and employees. Quarterly reminders are sent to managers to perform their regular check-in conversation.",
+        "Goal": "",
+        "Test of Design": "1. Document and maintain a check-in performance management process for on-going dialogue between managers and employees.\n\n2. Ensure reminders are sent to managers on a quarterly basis for performing regular check-in.",
+        "Test of Operating Effectiveness": "1. Inspect relevant documentation to validate whether a process regarding check-in performance management has been defined.\n\n2. For a sample of quarters, inspect the mail communication to determine whether quarterly reminders are sent to managers to perform their regular check-in conversation.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Human Resource Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PR-01\n\nE-PR-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PR-03",
+        "Control Domain": "People Resources",
+        "Control Name": "Hiring Process",
+        "Control Description": "Job candidates apply for roles that are listed on the Organization career portal; candidates are interviewed to determine their knowledge and competence for their prospective roles and compatibility with Organization values.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented that outlines the requirements for hiring of employees.\n\n2. Ensure all job roles are posted on career portal for application.\n\n3. Ensure appropriate hiring process is followed to determine competence before hiring.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a process is defined and documented that outlines the requirements for hiring of employees.\n\n2. Validate sample job roles and check if they are posted on career portal for application.\n\n3. For sample employees validate the hiring process followed and evaluate whether it was according to the policy.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Human Resource Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PR-01\n\nE-PR-04\n\nE-PR-05",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PR-04",
+        "Control Domain": "People Resources",
+        "Control Name": "Organization Property Collection",
+        "Control Description": "Upon employee termination, management is notified to collect Organization property from the terminated employee.\n",
+        "Goal": "",
+        "Test of Design": "1. Ensure a process is defined and documented to notify the management in case of employee termination and collect organization property.\n\n2. Ensure termination procedures are followed to collect organization property from the employee.\n",
+        "Test of Operating Effectiveness": "1. Inspect the relevant documentation to determine whether a process is defined and documented to notify the management in case of employee termination and collect organization property.\n\n2. For a sample of terminated employees, validate that termination procedures were followed to collect organization property.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Human Resource Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PR-01\n\nE-PR-06",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PR-05",
+        "Control Domain": "People Resources",
+        "Control Name": "Exit Interviews",
+        "Control Description": "Upon employee termination, management conducts exit interviews for the terminated employee.",
+        "Goal": "",
+        "Test of Design": "1. Ensure a process is defined and documented to notify the management in case of employee termination and conduct exit interviews\n\n2. Ensure exit interviews are conducted once a user is terminated in HR Management System and relevant stakeholders are involved.\n\n3. Ensure that a record of the interview is retained.",
+        "Test of Operating Effectiveness": "1. Inspect the relevant documentation to determine whether a process is defined and documented to notify the management in case of employee termination and conduct exit interviews\n\n2. Inspect records of the exit interview for terminated employees.\n\n3. For a sample of terminated employees, validate that termination procedures were followed including the performance of an exit interview. ",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Human Resource Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PR-01\n\nE-PR-07",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PR-06",
+        "Control Domain": "People Resources",
+        "Control Name": "Disciplinary Process",
+        "Control Description": "Employees that fail to comply with Organization policies are subject to a disciplinary process.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a disciplinary process is defined and documented and is appropriately communicated.\n\n2. Ensure that the disciplinary process is followed for all employees violating organizational policies. ",
+        "Test of Operating Effectiveness": "1. Inspect relevant documentation to validate that a disciplinary process is defined and appropriately communicated.\n\n2. Validate that disciplinary process was followed for all employees violating organizational policies. ",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Human Resource Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PR-01\nE-PR-08",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PR-07",
+        "Control Domain": "People Resources",
+        "Control Name": "Code of Ethics",
+        "Control Description": "Organization has a Code of Ethics for Senior Officers. The Senior Officers and CEO certify that they understand the Code on an annual basis.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a Code of Ethics has been established for senior officers and the CEO.\n\n2. Ensure all senior officers and CEO have documented certification of Code of Ethics on an annual basis.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a Code of ethics is defined and documented for senior officers and CEO.\n\n2. Validate that all senior officers and CEO have documented certification of code of ethics at least annually.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Human Resource Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PR-09\nE-PR-10",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PR-08",
+        "Control Domain": "People Resources",
+        "Control Name": "Business Ethics Hotline",
+        "Control Description": "Organization has a business ethics hotline for employees and external parties to report ethical misconduct. Allegations are investigated and Organization will take appropriate action for confirmed violations. Hotline reports are reported to the Audit Committee on a quarterly basis.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process has been defined and documented for reporting ethical misconduct.\n\n2. Ensure that allegations made through the hotline are investigated and appropriate action is taken.\n\n3. Ensure Hotline reports are reported to the Audit Committee on a quarterly basis.",
+        "Test of Operating Effectiveness": "1. Inspect the relevant documentation to validate that a process has been defined and documented for reporting ethical misconduct.\n\n2. Validate that the allegations made through the hotline are investigated and appropriate action is taken for a sample of reports.\n\n3. Validate whether the hotline reports are reported to the Audit Committee on a quarterly basis.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Human Resource Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PR-01\n\nE-PR-11\n\nE-PR-12",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PR-09",
+        "Control Domain": "People Resources",
+        "Control Name": "National Security Clearance",
+        "Control Description": "Organization conducts screening and rescreening of authorized personnel for roles that require national security clearances. For national security clearances; a reinvestigation is required during the 5th year for top secret security clearance, the 10th year for secret security clearance, and 15th year for confidential security clearance. In addition, for law enforcement and high impact public trust level, a reinvestigation is required during the 5th year.",
+        "Goal": "",
+        "Test of Design": "1. Document and maintain a process on screening/rescreening or vetting of employees that need national security clearances.\n\n2. Ensure list of roles requiring national security clearances is reviewed and kept up-to-date.\n\n3. Ensure that screening and rescreening of authorized personnel are conducted for roles that require national security clearances.\n\n4. For national security clearances, ensure that rescreening is conducted for the following:\n\u2022 5th year for top secret security clearance\n\u2022 10th year for secret security clearance\n\u2022 15th year for confidential security clearance\n\n5. For law enforcement an high impact public trust level, ensure that an reinvestigation is conducted during the 5th year",
+        "Test of Operating Effectiveness": "1. Inspect relevant documentation and validate that a process on screening/rescreening or vetting of employees that need national security clearances is established.\n\n2. Validate whether a list of roles requiring national security clearances is reviewed and kept up-to-date.\n\n3. Validate for a sample employee requiring National Security Clearance that screening and rescreening was conducted.\n\n4. For sample national security clearances, validate that rescreening was conducted for the following:\n\u2022 5th year for top secret security clearance\n\u2022 10th year for secret security clearance\n\u2022 15th year for confidential security clearance\n\n5. For sample law enforcement and high impact public trust level security clearance, validate that a reinvestigation was conducted during the 5th year.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Human Resource Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PR-13\nE-PR-14\nE-PR-15\nE-PR-16",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PR-10",
+        "Control Domain": "People Resources",
+        "Control Name": "Code of Business Conduct",
+        "Control Description": "Organization has documented the Code of Business Conduct and Business Partner Code of Conduct, which are reviewed, updated if applicable, and approved by senior management annually.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a Code of Business Conduct and Business Partner Code of Conduct is defined, documented, and approved by senior management.\n\n2. Ensure that these documents are reviewed, updated, and approved at least on an annual basis.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a Code of Business Conduct and Business Partner Code of Conduct is defined, documented, and approved by senior management.\n\n2. Validate that these documents are reviewed, updated, and approved at least on an annual basis.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Human Resource Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PR-17\n\nE-PR-18",
+        "Mapping": ""
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "CC ID": "PS-01",
+        "Control Domain": "Proactive Security",
+        "Control Name": "Endpoint Detection and Response",
+        "Control Description": "Endpoint Detection and Response (EDR) software is deployed to continuously monitor, detect, and respond to cyber threats and patterns of malicious behavior and activity.",
+        "Goal": "",
+        "Test of Design": "1. Deploy Endpoint Detection and Response (EDR) software to continuously monitor, detect, and respond to cyber threats and patterns of malicious behavior and activity.\n\n2. Ensure that the EDR configurations are periodically reviewed.",
+        "Test of Operating Effectiveness": "1. For a sample of endpoints, validate whether Endpoint Detection and Response (EDR) software is installed and continuously monitor, detect, and respond to cyber threats and patterns of malicious behavior and activity.\n\n2. Inspect whether the EDR configurations are reviewed periodically.",
+        "Theme": "Technology",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Network Security Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-NO-01\n\nE-PS-01",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PS-02",
+        "Control Domain": "Proactive Security",
+        "Control Name": "Threat Hunting",
+        "Control Description": "Organization performs threat hunting to identify, track, and disrupt threats that evade existing security controls.",
+        "Goal": "",
+        "Test of Design": "1. Conduct cyber threat hunting activities according to an organization-defined frequency and/or organization-defined event to detect, track, and disrupt threats that evade existing controls.\n\n2. Establish a threat hunting methodology in accordance with the organization's security objectives.\n\n3. Define threat indicator information and effective mitigations.",
+        "Test of Operating Effectiveness": "1. Inspect whether cyber threat hunting activities are performed as per defined frequency to detect, track, and disrupt threats that evade existing controls.\n\n2. Validate whether a threat hunting methodology exists in accordance with the organization's security objectives.\n\n3. Inspect the threat indicator information and effective mitigations.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Incident Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PS-02\n\nE-PS-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PS-03",
+        "Control Domain": "Proactive Security",
+        "Control Name": "Threat Modeling",
+        "Control Description": "Organization performs periodic threat modeling to ensure that potential threats are identified and assessed.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that an organization performs periodic threat modeling to ensure that potential threats are identified and assessed.",
+        "Test of Operating Effectiveness": "1. Validate whether an organization performs threat modeling periodically to identify and assess potential threats.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "System Architecture and Design\u00a0Documentation Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PS-04",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PS-04",
+        "Control Domain": "Proactive Security",
+        "Control Name": "Adversary Intelligence",
+        "Control Description": "Organization gathers intelligence on adversary personas to assist in the prioritization of security activities.",
+        "Goal": "",
+        "Test of Design": "1. Establish a process through which an organization gathers intelligence on adversary personas to assist in the prioritization of security activities.",
+        "Test of Operating Effectiveness": "1. Validate whether a process exists through which an organization gathers intelligence on adversary personas to assist in the prioritization of security activities.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Incident Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PS-05",
+        "Mapping": ""
+    }
+]

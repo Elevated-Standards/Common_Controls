@@ -1,0 +1,172 @@
+[
+    {
+        "CC ID": "RM-01",
+        "Control Domain": "Risk Management",
+        "Control Name": "Service Risk Rating Assignment",
+        "Control Description": "Annually, Organization prioritizes the frequency of vulnerability discovery activities based on an assigned service risk rating.",
+        "Goal": "",
+        "Test of Design": "1. Ensure Risk management standard is in place and documented which defines the frequency of vulnerability discovery activities based on an assigned service risk rating.\n\n2. Ensure all the identified vulnerabilities are remediated based on the risk rating.",
+        "Test of Operating Effectiveness": "1. Validate that the organization has a defined vulnerability management standard.\n\n2. For a sample of vulnerabilities, test that it was remediated based on risk ranking.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Risk Management Standard"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-RM-01\nE-RM-02",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "RM-02",
+        "Control Domain": "Risk Management",
+        "Control Name": "Risk Assessment",
+        "Control Description": "Organization management performs an annual risk assessment. Results from risk assessment activities are reviewed to prioritize mitigation of identified risks.",
+        "Goal": "",
+        "Test of Design": "1. Ensure Risk Management Standard shall be in place which RM-01 defines the requirements for annual risk assessment.\n\n2. Ensure that the results of risk assessment are reviewed and mitigation is performed on priority.\n\n3. Any identified issues should have a corresponding risk treatment plan or corrective action plan in place. Each issue shall be tracked to completion.",
+        "Test of Operating Effectiveness": "1. Validate that Risk Management Standard is in place and defines the requirements for annual risk assessment.\n\n2. Validate evidence for the review of results of risk assessment and mitigation of risks.\n\n3. Validate that any identified issues were tracked to completion, according to its corresponding risk treatment plan or corrective action plan.\n",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Risk Management Standard"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-RM-03\nE-RM-04\nE-RM-05",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "RM-03",
+        "Control Domain": "Risk Management",
+        "Control Name": "Risk Assessment: HIPAA Criteria",
+        "Control Description": "Organization's periodic risk assessment for systems that process, transmit or store Protected Health Information (PHI) includes the following:\n\u2022 identify and classify assets\n\u2022 identify threats\n\u2022 identify vulnerabilities\n\u2022 identify controls\n\u2022 perform threat likelihood analysis\n\u2022 perform threat impact analysis\n\u2022 identify residual risk\n\u2022 identify appropriate safeguards",
+        "Goal": "",
+        "Test of Design": "1. Ensure risk assessment for systems that process, transmit or store Protected Health Information (PHI) shall be in place and includes the information listed below:\n\u2022 identify and classify assets\n\u2022 identify threats\n\u2022 identify vulnerabilities\n\u2022 identify controls\n\u2022 perform threat likelihood analysis\n\u2022 perform threat impact analysis\n\u2022 identify residual risk\n\u2022 identify appropriate safeguards",
+        "Test of Operating Effectiveness": "1. Review Risk Assessment for a sample system that process, transmit or store Protected Health Information (PHI) and validate whether it includes the following:\n\u2022 identify and classify assets\n\u2022 identify threats\n\u2022 identify vulnerabilities\n\u2022 identify controls\n\u2022 perform threat likelihood analysis\n\u2022 perform threat impact analysis\n\u2022 identify residual risk\n\u2022 identify appropriate safeguards",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Risk Management Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-RM-06",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "RM-04",
+        "Control Domain": "Risk Management",
+        "Control Name": "Continuous Monitoring",
+        "Control Description": "The design and operating effectiveness of internal controls are continuously evaluated against the established Common Controls Framework by Organization. Corrective actions related to identified deficiencies are tracked to resolution.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for the continuous monitoring of internal controls against the common controls framework.\n\n2. Ensure any gaps identified are remediated as per the organization's policy.",
+        "Test of Operating Effectiveness": "1. Validate that a process is defined and documented for the continuous monitoring of internal controls against the common controls framework.\n\n2. For sample gaps validate that they were remediated as per the organization's policy.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Risk Management Standard"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-RM-07\nE-RM-08",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "RM-05",
+        "Control Domain": "Risk Management",
+        "Control Name": "Self-Assessments: PCI",
+        "Control Description": "On a quarterly basis, reviews shall be performed with approved documented specification to confirm personnel are following security policies and operational procedures pertaining to:\n\u2022 daily log reviews\n\u2022 firewall rule-set reviews\n\u2022 applying configuration standards to new systems\n\u2022 responding to security alerts\n\u2022 change management processes",
+        "Goal": "",
+        "Test of Design": "1. Establish a quarterly process to ensure that the following policies and operational procedures are being reviewed and approved by authorized personnel: \n\u2022 daily log reviews\n\u2022 firewall rule-set reviews\n\u2022 applying configuration standards to new systems\n\u2022 responding to security alerts\n\u2022 change management processes\n",
+        "Test of Operating Effectiveness": "1. Inspect whether a process exists for reviewing the following on a quarterly basis:\n\u2022 daily log reviews\n\u2022 firewall rule-set reviews\n\u2022 applying configuration standards to new systems\n\u2022 responding to security alerts\n\u2022 change management processes\n\n2. Validate using the last review whether any deviations were noted and if applicable, were tracked till resolution",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Risk Management Standard"
+        },
+        "Frequency": "Quarterly",
+        "Evidence Artifacts": "E-RM-03\n\nE-RM-09",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "RM-06",
+        "Control Domain": "Risk Management",
+        "Control Name": "Internal Audits",
+        "Control Description": "Organization establishes internal audit requirements based on the Common Controls Framework by Organization and executes audits on information systems and processes at planned intervals.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the organization sets audit rules based on its Common Controls Framework and conducts audits on its information systems and processes at scheduled times",
+        "Test of Operating Effectiveness": "1. Inspect internal and external audit results. ",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Risk Management Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-RM-10\n\nE-RM-11",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "RM-07",
+        "Control Domain": "Risk Management",
+        "Control Name": "ISMS Internal Audit Requirements",
+        "Control Description": "Internal audit establishes and executes a plan to evaluate applicable controls in the Information Security Management System (ISMS) at least once every 3 years.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the organization possesses an audit program document that enumerates the particular controls slated for testing within its Information Security Management System (ISMS).\n\n2. Ensure that the outcomes of internal audit for ISMS controls is reviewed on a periodic basis.",
+        "Test of Operating Effectiveness": "1. Inspect audit program document that lists out specific controls to be tested in the ISMS. \n\n2. Inspect the results of internal audit of ISMS controls and note the cadence of such audits. ",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Risk Management Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-RM-12\n\nE-RM-13\n\nE-RM-11",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "RM-08",
+        "Control Domain": "Risk Management",
+        "Control Name": "Remediation Tracking",
+        "Control Description": "Management prepares a remediation plan to formally manage the resolution of findings identified in risk assessment activities.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that there is a well-defined and documented remediation plan in place to address and resolve any findings from risk assessment activities.\n\n2. Ensure that the findings identified are resolved within the agreed timeframe.",
+        "Test of Operating Effectiveness": "1. Inspect documentation of remediation plan for any risk assessment activities. \n\n2. Validate whether the findings created are remediated in the defined timeframe.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Risk Management Standard"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-RM-14\n\nE-RM-03\n\nE-RM-15",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "RM-09",
+        "Control Domain": "Risk Management",
+        "Control Name": "ISMS Corrective Action Plans",
+        "Control Description": "Management prepares a Corrective Action Plan (CAP) to manage the resolution of nonconformities identified in independent audits.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that there is an audit finding document generated following an external, independent audit and used as a basis for implementing necessary improvements and corrective actions.\n",
+        "Test of Operating Effectiveness": "1. Inspect audit finding document prepared after external, independent audit. \n\n2. For a sample of findings, examine evidence of resolution or a plan of action for audit findings. ",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Risk Management Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-RM-15\n\nE-RM-16",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "RM-10",
+        "Control Domain": "Risk Management",
+        "Control Name": "Statement of Applicability",
+        "Control Description": "Management prepares a statement of applicability that includes control objectives, implemented controls, and business justification for excluded controls. Management aligns the statement of applicability with the results of the annual risk assessment. ",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the statement of applicability (SOA) is approved by the management and in alignment with the outcomes of the annual risk assessment to ensure consistency and relevance.\n\n\n\n",
+        "Test of Operating Effectiveness": "1. Inspect the organization's statement of applicability (SOA) and compares it with the result of the annual risk assessment. \n2. Validate whether the statement of applicability is approved by management. ",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Risk Management Standard"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-RM-17",
+        "Mapping": ""
+    }
+]

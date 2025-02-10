@@ -1,0 +1,138 @@
+[
+    {
+        "CC ID": "IR-01",
+        "Control Domain": "Incident Response",
+        "Control Name": "Incident Response Plan",
+        "Control Description": "Organization defines the types of incidents that need to be managed, tracked and reported, including:\n\u2022 procedures for the identification and management of incidents \n\u2022 procedures for the resolution of confirmed incidents\n\u2022 key incident response systems\n\u2022 incident coordination and communication strategy\n\u2022 contact method for internal parties to report incidents\n\u2022 support team contact information\n\u2022 notification to relevant management in the event of a security breach\n\u2022 provisions for updating and communicating the plan\n\u2022 provisions for training of support team\n\u2022 preservation of incident information\n\u2022 management review and approval, annually, or when major changes to the organization occur",
+        "Goal": "",
+        "Test of Design": "1. Prepare, document, and communicate the Incident Response Plan and Incident Management Policy and ensure that the following are documented:\n\na. Procedures for the assignment of Roles and Responsibilities for the design implementation, maintenance and execution of the incident response plan\nb. Procedures for the identification and management of incidents\nc. Procedures for the resolution of confirmed incidents\nd. Procedures for the restoration of data and business operation\ne. Incident coordination and communication strategy\nf. Notification to relevant management in the event of a security breach\ng. Provisions for updating and communicating the plan\nh. Provisions for evaluating the effectiveness of incident response\ni. Post incident resolution including post mortem analysis and lessons learned\n\n2. Ensure that a process exists to periodically review the changes which displays revision history of the Incident Response Plan.",
+        "Test of Operating Effectiveness": "1. Inspect the Incident Response Plan and Incident Management Policy to determine whether the following are documented:\n\na. Procedures for the assignment of Roles and Responsibilities for the design implementation, maintenance and execution of the incident response plan\nb. Procedures for the identification and management of incidents\nc. Procedures for the resolution of confirmed incidents\nd. Procedures for the restoration of data and business operation\ne. Incident coordination and communication strategy\nf. Notification to relevant management in the event of a security breach\ng. Provisions for updating and communicating the plan\nh. Provisions for evaluating the effectiveness of incident response\ni. Post incident resolution including post mortem analysis and lessons learned\n\n2. Review the changes which displays revision history of the Incident Response Plan.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Incident Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IR-01\nE-IR-02\nE-IR-03\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IR-02",
+        "Control Domain": "Incident Response",
+        "Control Name": "Incident Response Testing",
+        "Control Description": "Organization tests incident response processes on an annual basis. Results from the tests are documented.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process exists to test the incident response process on an annual basis.\n\n2. Ensure that Incident Response Standard is updated at least annually.\n\n3. Establish a process for conducting the trainings such as table top exercise and ensure that all necessary personnel attended the training.",
+        "Test of Operating Effectiveness": "1. Validate with the Incident response team of the completion of the training and its documentation.\n\n2. Validate that Incident Response Standard is updated at least annually.\n\n3. Review elements of the training such as table top exercise and confirm that all necessary personnel attended the training.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Incident Management Policy"
+        },
+        "Frequency": "Annual",
+        "Evidence Artifacts": "E-IR-01\n\nE-IR-04\n\nE-IR-05",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IR-03",
+        "Control Domain": "Incident Response",
+        "Control Name": "Incident Response",
+        "Control Description": "Confirmed incidents are assigned a priority level and managed to resolution. If applicable, Organization coordinates the incident response with business contingency activities.",
+        "Goal": "",
+        "Test of Design": "1. Prepare, document, and communicate the Security Incident Management Policy within the organization.\n\n2. Ensure that priority level are assigned to a sample of incidents and that they are tracked to resolution.\n\n3. For any crisis declared incidents, validate that business contingency activities are performed.",
+        "Test of Operating Effectiveness": "1. Inspect the Organization Security Incident Management Policy.\n\n2. Validate that priority level are assigned to a sample of incidents and ensure that they are tracked to resolution.\n\n3. Validate that for any crisis declared incidents, that business contingency activities were performed.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Incident Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IR-02\n\nE-IR-06",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IR-04",
+        "Control Domain": "Incident Response",
+        "Control Name": "External Communication of Incidents",
+        "Control Description": "Organization defines external communication requirements for incidents, including:\n\u2022 information about external party dependencies\n\u2022 criteria for notification to external parties as required by Organization policy in the event of a security breach\n\u2022 contact information for authorities (e.g., law enforcement, regulatory bodies, etc.)\n\u2022 provisions for updating and communicating external communication requirement changes",
+        "Goal": "",
+        "Test of Design": "1. Ensure that following details are documented in Incident Response Plan and Standard:\n \u2022 information about external party dependencies\n \u2022 criteria for notification to external parties as required by policy in the event of a security breach\n \u2022 contact information for authorities (e.g., law enforcement, regulatory bodies, etc.)\n \u2022 provisions for updating and communicating external communication requirement changes\n\n2. Establish a process that flags the alerts as the defined escalation metrics.",
+        "Test of Operating Effectiveness": "1. Inspect the Incident Response Plan and Standard to determine whether the following are documented:\n \u2022 information about external party dependencies\n \u2022 criteria for notification to external parties as required by policy in the event of a security breach\n \u2022 contact information for authorities (e.g., law enforcement, regulatory bodies, etc.)\n \u2022 provisions for updating and communicating external communication requirement changes\n\n2. Review the procedure for alert escalation",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Incident Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IR-01\nE-IR-02\n\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IR-05",
+        "Control Domain": "Incident Response",
+        "Control Name": "Incident Reporting Contact Information",
+        "Control Description": "Organization provides a contact method to:\n\u2022 submit complaints and inquiries\n\u2022 report incidents",
+        "Goal": "",
+        "Test of Design": "1. Define a communication channel on the company public website which shall include a contact method for external parties to submit complaints, inquiries, and report incidents.",
+        "Test of Operating Effectiveness": "1. Review public website to determine whether the company provides a contact method for external parties to submit complaints, inquiries, and report incidents.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Incident Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IR-08",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IR-06",
+        "Control Domain": "Incident Response",
+        "Control Name": "Incident External Communication",
+        "Control Description": "Organization communicates a response to external stakeholders as required by the Incident Response Plan.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the Incident Response Plan and the Incident Legal Communications Requirements Standard include a process for communicating a response to external stakeholders is required.\n\n2. Design a process to maintain the list of confirmed incidents which involved external stakeholders.\n\n3. Establish a process which sends out communications to external stakeholders per the Incident Response Plan.",
+        "Test of Operating Effectiveness": "1. Inspect the Incident Response Plan and the Incident Legal Communications Requirements Standard to determine whether communicating a response to external stakeholders is required.\n\n2. Obtain a list of confirmed incidents which involved external stakeholders.\n\n3. Inspect a sample of confirmed incidents tickets to determine whether communications required a response to external stakeholders per the Incident Response Plan.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Incident Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IR-01\nE-IR-09\nE-IR-06\n\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IR-07",
+        "Control Domain": "Incident Response",
+        "Control Name": "External Communication of Incidents: Protected Health Information",
+        "Control Description": "Organization communicates the discovery and status of the breach of Protected Health Information (PHI) to the covered entity within 60 days or as required by the Business Associates Agreement (BAA) and provides the following information if available:\n\u2022 description of the Event\n\u2022 description of the Information that was compromised\n\u2022 identification of the Individuals whose PHI were compromised\n\u2022 steps Required to Protect Individuals\n\u2022 investigation Plan\n\u2022 contact Information",
+        "Goal": "",
+        "Test of Design": "1. Design the process to validate whether an incident includes Personal Health information.\n\n2. Ensure that all incidents where there has been a breach have been communicated to the covered entity within 60 days, or following the covered entity's Business Associates Agreement.\n\n3. Ensure that within the communication all the listed information was provided to the covered entity:\n\u2022 description of the Event\n\u2022 description of the Information that was Compromised\n\u2022 identification of the Individuals whose PHI were Compromised\n\u2022 steps Required to Protect Individuals\n\u2022 investigation Plan\n\u2022 contact Information",
+        "Test of Operating Effectiveness": "1. Validate all incidents have included Personal Health information.\n\n2. Inspect whether all the incidents where there has been a breach have been communicated to the covered entity within 60 days, or following the covered entity's Business Associates Agreement.\n\n3. Validate whether the communication was sent to the covered entity and included all the listed information:\n\u2022 description of the Event\n\u2022 description of the Information that was Compromised\n\u2022 identification of the Individuals whose PHI were Compromised\n\u2022 steps Required to Protect Individuals\n\u2022 investigation Plan\n\u2022 contact Information",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Incident Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IR-10\nE-IR-11\n\n\n",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "IR-08",
+        "Control Domain": "Incident Response",
+        "Control Name": "Problem Management",
+        "Control Description": "Organization resolves customer support inquiries.",
+        "Goal": "",
+        "Test of Design": "1. Establish a process to support customer inquires and ensure that they have been resolved and documented.",
+        "Test of Operating Effectiveness": "1. Review a sample of customer support inquires and ensure that they have been resolved.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Incident Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-IR-12\n",
+        "Mapping": ""
+    }
+]

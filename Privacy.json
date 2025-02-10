@@ -1,0 +1,172 @@
+[
+    {
+        "CC ID": "PRIV-01",
+        "Control Domain": "Privacy",
+        "Control Name": "Privacy Program",
+        "Control Description": "Organization privacy policies for individuals, including relevant updates, are communicated on the public company website or on the internal corporate network.",
+        "Goal": "",
+        "Test of Design": "1. Ensure the organization has created a privacy policy.\n\n2. Ensure the policy is updated and approved on regular intervals.\n\n3. Ensure the policy is communicated and is available for employees and relevant stakeholders.",
+        "Test of Operating Effectiveness": "1. Inspect privacy policies and confirm that the policy is updated.\n\n2. Confirm that anytime the privacy policy is updated, these updates are present on the intranet or public website. ",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Privacy Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PRIV-01",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PRIV-02",
+        "Control Domain": "Privacy",
+        "Control Name": "Privacy Program Review",
+        "Control Description": "On an annual basis, Organization performs a review of privacy practices to ensure the following:\n\u2022 consent is obtained for users whose personal information (PI) is managed by Organization\n\u2022 PI inventory integrity and accuracy\n\u2022 data access request response template is understandable\n\u2022 standard agreement templates are up-to-date\n\u2022 requests to delete, access or update PI are processed accurately and within a timeframe consistent with Organization policy\n\u2022 compliance with Organization's privacy commitments\n\u2022 known privacy issues are remediated\n\u2022 opt-in and opt-out compliance with applicable law\n\u2022 Organization privacy documentation and practices are relevant to applicable law\n\u2022 compliance with relevant industry Codes of Conduct (e.g., EDAA)\n\u2022 if applicable, joint controller responsibilities are clearly defined and communicated to both data controllers and the data subject",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the organization has established a privacy program.\n\n2. Ensure that the program is reviewed on at least an annual basis.\n\n3. Ensure that the privacy program contains controls regarding consent, data access requests, modification requests, SLAs, privacy issues, roles and responsibilities.\n\n4. Ensure that agreement templates are reviewed and updated.",
+        "Test of Operating Effectiveness": "1. Collect and inspect the organization's annual privacy review. \n\n2. Validated that the annual privacy review covers all components.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Privacy Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PRIV-02",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PRIV-03",
+        "Control Domain": "Privacy",
+        "Control Name": "Privacy Readiness Review",
+        "Control Description": "Organization performs privacy readiness reviews to identify high-risk processing activities that impact personal data; identified non-compliance with Organization privacy practices is tracked through remediation.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process has been established for privacy readiness reviews.\n\n2. Ensure privacy readiness reviews are conducted for high-risk processing activities.\n\n3. Ensure necessary actions are taken for the remediation of findings from privacy readiness reviews.",
+        "Test of Operating Effectiveness": "1. Inspect privacy readiness reviews and ensure that remediation activities were launched for any non-compliant actions. \n\n2. Validate that remediation activates were resolved and remediated.",
+        "Theme": "Process",
+        "Control Type": "Corrective",
+        "Policy": {
+            "Standard": "Privacy Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PRIV-03",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PRIV-04",
+        "Control Domain": "Privacy",
+        "Control Name": "Privacy Notice",
+        "Control Description": "Individuals are given appropriate notice and an opportunity to consent or decline to Organization privacy practices such as accessing, collecting, processing, transferring, or storing personal information.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a consent notice is established for users regarding privacy guidelines.\n\n2. Ensure that the users have an option to accept or decline the consent.",
+        "Test of Operating Effectiveness": "1. Inspect Data Protection Policy and procedure documents to ensure individuals are given appropriate notice and an opportunity to consent or decline to organization privacy practices such as accessing, collecting, processing, transferring, or storing personal information.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PRIV-04",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PRIV-05",
+        "Control Domain": "Privacy",
+        "Control Name": "Personal Information Notice and Consent: Additional Processing Activities",
+        "Control Description": "Where appropriate, Organization obtains individual consent for processing activities for which consent has not been previously obtained.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that consent is obtained for processing user data.\n\n2. Ensure that any change in processing activities is followed by an update of consent.",
+        "Test of Operating Effectiveness": "1. Inspect Data Protection Policy and procedure documents to determine whether organization obtains individual consent for processing activities for which consent has not been previously obtained.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PRIV-04",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PRIV-06",
+        "Control Domain": "Privacy",
+        "Control Name": "Notice of Personal Information Disclosure",
+        "Control Description": "In accordance with Organization policy, Organization provides notice to individuals regarding legally-required disclosures of personal information.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is established for disclosing user data in case of legal enquiries.\n\n2. Ensure appropriate notice is provided to the users regarding disclosure of their data.",
+        "Test of Operating Effectiveness": "1. Inspect Organization policy related to disclosure of personal information to determine whether process of providing notice to individuals regarding legally required disclosures of personal information is documented.",
+        "Theme": "Process",
+        "Control Type": "Detective",
+        "Policy": {
+            "Standard": "Data Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PRIV-05",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PRIV-07",
+        "Control Domain": "Privacy",
+        "Control Name": "PII Processing Agreements",
+        "Control Description": "Personal information is handled and processed in accordance with contractual requirements.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that appropriate agreements are established to define PII processing requirements.\n\n2. Ensure all customers sign PII processing agreements.\n\n3. Ensure all PII is handled and processed as per contractual requirements.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that appropriate agreements are established and documented that define PII processing requirements.\n\n2. For a sample customer validate that PII processing agreement has been signed.\n\n3. Validate that all PII is handled and processed as per contractual requirements and the employees are briefed of these requirements.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Privacy Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PRIV-06\nE-PRIV-07",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PRIV-08",
+        "Control Domain": "Privacy",
+        "Control Name": "Record of Processing Activity",
+        "Control Description": "Organization documents, reviews, and approves a record of processing activities related to personal information.",
+        "Goal": "",
+        "Test of Design": "1. Ensure appropriate process has been established to document and record all processing activities related to Personal Information.\n\n2. Ensure the records of PII processing activities are reviewed periodically as per contractual requirements.\n\n3. Ensure that the record is approved by appropriate personnel. ",
+        "Test of Operating Effectiveness": "1. Inspect a sample of reviews related to processing of personal information and validate that it is approved by the authorized personnel.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Privacy Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PRIV-08",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PRIV-09",
+        "Control Domain": "Privacy",
+        "Control Name": "Document Management Standard: HIPAA",
+        "Control Description": "Documentation that impacts personal health information, including policies, procedures, and the documentation of actions, activities, or assessments, are retained for 6 years from the date of its creation, or the date when it last was in effect, whichever is later.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that a process is defined and documented for retaining documentation related to personal health information.\n\n2. Ensure that this documentation is retained at least for 6 years from the date of creation or when it was last effective.\n\n3. Ensure this documentation consists of polices and procedures of actions, activities and/or assessments.",
+        "Test of Operating Effectiveness": "1. Validate documented retention configuration is set to at least 6 years for policies, procedures, and assessment for the documents that impacts personal health information.\n\n2. Inspect a sample of documentation going back to the earliest document or at least 6 years. ",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Privacy Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PRIV-09",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "PRIV-10",
+        "Control Domain": "Privacy",
+        "Control Name": "Law Enforcement Requests",
+        "Control Description": "Law enforcement agencies may submit requests for evidence; submitted requests are reviewed and tracked to resolution.",
+        "Goal": "",
+        "Test of Design": "1. Ensure a process is defined, documented, and approved for law enforcement agencies to submit evidence requests for investigation.\n\n2. Ensure these requests are appropriately tracked and resolved as per contractual and legal requirements.\n\n3. Ensure any evidence sharing is done via secure methods to avoid unauthorized access to data.\n\n4. Ensure only customer data relevant to the investigation is segregated and submitted if needed.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that a process is defined, documented, and approved for law enforcement agencies to submit evidence requests for investigation.\n\n2. Validate for a sample of requests that they are appropriately tracked and resolved as per contractual and legal requirements.\n\n3. Validate for a sample request whether the evidence sharing was done via secure methods to avoid unauthorized access to data.\n\n4. Validate how customer data relevant to the investigation was segregated and submitted.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Incident Management Policy"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-PRIV-10\nE-PRIV-11\nE-PRIV-12",
+        "Mapping": ""
+    }
+]

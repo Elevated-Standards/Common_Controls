@@ -1,0 +1,36 @@
+[
+    {
+        "CC ID": "SDD-01",
+        "Control Domain": "System Design Documentation",
+        "Control Name": "System Documentation",
+        "Control Description": "Documentation of system boundaries and key aspects of their functionality are published to authorized Organization personnel on the Organization intranet.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that appropriate documentation is established for system boundaries and key aspects of functionality.\n\n2. Ensure that these diagrams are available to authorized personnel through intranet.",
+        "Test of Operating Effectiveness": "1. Inspect and validate that appropriate documentation is established for system boundaries and key aspects of functionality.\n\n2. Validate that these diagrams are available to authorized personnel through intranet.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "System Architecture and Design\u00a0Documentation Standard"
+        },
+        "Frequency": "Semi-Annual",
+        "Evidence Artifacts": "E-SDD-01",
+        "Mapping": ""
+    },
+    {
+        "CC ID": "SDD-02",
+        "Control Domain": "System Design Documentation",
+        "Control Name": "Whitepapers",
+        "Control Description": "Organization publishes whitepapers to its public website that describe the purpose, design and boundaries of the system and system components.",
+        "Goal": "",
+        "Test of Design": "1. Ensure that the organization's public website have published whitepapers describing the purpose, design, and boundaries of the in-scope services and system components.\n\n2. Ensure that these whitepapers are reviewed periodically for accuracy and approved by relevant personnel prior to publishing.",
+        "Test of Operating Effectiveness": "1. Inspect the organization's public website to determine whether whitepapers for in-scope services are published.",
+        "Theme": "Process",
+        "Control Type": "Preventive",
+        "Policy": {
+            "Standard": "Information Security Management Standard"
+        },
+        "Frequency": "",
+        "Evidence Artifacts": "E-SDD-02",
+        "Mapping": ""
+    }
+]
